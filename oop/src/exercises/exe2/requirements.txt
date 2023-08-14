@@ -1,0 +1,50 @@
+	Books Management
+
+Implement console program which will meet the following requirements:
+
+	1.Implement class Book that has next properties:
+		int id - unique identifier
+		String name - name of a book
+		Author[] authors - array of authors
+		Publisher publisher - book publisher
+		int publishingYear - year of publishing
+		int amountOfPages - amount of pages
+		BigDecimal price - price of a book
+
+	2.Implement equals and hashCode for Book class
+
+	3.Implement Author class that has next properties:
+		int id - unique identifier
+		String firstName - author’s first name
+		String lastName - author’s last name
+
+	4.Implement Publisher class that has next properties:
+		int id - unique identifier
+		String publisherName - name of a publisher
+
+	5.Implement multiple constructors for Book, Author and Publisher class.
+
+	6.Implement enum type CoverType with two enums - Paperback and Hardcover
+
+	7.Override toString methods for Book, Author and Publisher class.
+
+	8.Implement class BookService with the next methods
+
+		public Book[] filterBooksByAuthor(Author author, Book[] books) {
+			<write your code here>
+		}
+
+		public Book[] filterBooksByPublisher(Publisher publisher, Book[] books) {
+			<write your code here>
+		}
+		
+		// methods keeps books with publishing year inclusively.
+		public Book[] filterBooksAfterSpecifiedYear(int yearFromInclusively, Book[] books) {
+			<write your code here>
+		}
+
+	9.Implement a Demo class that has the main method. In demo class perform next actions:
+		Create an array of books.
+
+	10.Create an instance of the BookService type and demonstrate the work of BookService methods, 
+		namely - filterBooksByAuthor, filterBooksByPublisher, filterBooksAfterSpecifiedYear.

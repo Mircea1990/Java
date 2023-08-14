@@ -1,0 +1,32 @@
+Payments and Transactions processing
+
+1.Implement console program which will meet the following requirements:
+
+	a.Implement class Account. Class Account has next fields:
+		int id
+		Transaction[] transactions
+
+	b.Implement enum StandardAccountOperations that contains next enums:
+		MONEY_TRANSFER_SEND
+		MONEY_TRANSFER_RECEIVE
+		WITHDRAW
+
+	c.Implement nested class Transaction that has next fields:
+		Account accountFrom
+		Account accountTo
+		double moneyAmount
+		StandardAccountOperations operation
+
+	d.In Account class implement next methods:
+
+	public void sendMoneyToAccount(Account accountTo, double moneyAmount) {
+		<write your code here>
+	}
+
+	public void withdrawMoney(double moneyAmount) {
+		<write your code here>
+	}
+
+	public Transaction[] getTransactions() {
+		<write your code here>
+	}
