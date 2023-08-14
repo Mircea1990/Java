@@ -1,0 +1,34 @@
+	Presents Management
+Implement console program which will meet the following requirements:
+
+1.Implement a hierarchy of Sweets. All Sweets should have next properties: 
+	name, weight and sugarWeight. Weight is a weight of the specific sweet in kilograms. 
+	sugarWeight is a weight of sugar in this sweet in kilograms.
+
+2.Candy, Lollipop and Cookie - two other types from Sweet hierarchy.
+
+
+3.Create class Present. Present has next behavior:
+
+	// the method filters sweets by sugar weight inclusively
+	public Sweet[] filterSweetsBySugarRange(double minSugarWeight, double maxSugarWeight) {
+		<write your code here>
+	}
+
+	// the method calculates total weight of the present
+	public double calculateTotalWeight() {
+		<write your code here>
+	}
+
+	// the method that adds sweet to the present
+	public void addSweet(Sweet sweet) {
+		<write your code here>
+	}
+
+
+	// the method returns copy of the Sweet[] array so that nobody could
+	// modify state of the present without addSweet() method.
+	// Also array shouldn’t contain null values
+	public Sweet[] getSweets() {
+		<write your code here>
+	}
