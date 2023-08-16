@@ -1,5 +1,7 @@
 package onlineshop.menu.impl;
 
+import java.util.Scanner;
+
 import onlineshop.configs.ApplicationContext;
 import onlineshop.menu.Menu;
 
@@ -15,14 +17,46 @@ public class SettingsMenu implements Menu {
 
 	@Override
 	public void start() {
-		// TODO Auto-generated method stub
+		Menu menuToNavigate = null;
+		mainLoop: while (true) {
+			printMenuHeader();
 
+			if (context.getLoggedInUser() == null) {
+				System.out.println("Please log in or create new account to change your account settings");
+				new MainMenu().start();
+				return;
+			} else {
+				System.out.println(SETTINGS);
+				System.out.println("Please, enter option or type 'menu' to navigate back to the main menu: ");
+
+				Scanner scanner = new Scanner(System.in);
+				String userInput = scanner.next();
+
+				if (userInput.equalsIgnoreCase(MainMenu.getMenuCommand())) {
+					menuToNavigate = new MainMenu();
+					break mainLoop;
+				}
+
+				int userOption = Integer.parseInt(userInput);
+				switch (userOption) {
+				case 1:
+					menuToNavigate = new ChangePasswordMenu();
+					break mainLoop;
+				case 2:
+					menuToNavigate = new ChangeEmailMenu();
+					break mainLoop;
+				default:
+					System.out.println("Only 1, 2 is allowed. Try one more time");
+					continue;
+				}
+			}
+		}
+		menuToNavigate.start();
 	}
 
 	@Override
 	public void printMenuHeader() {
-		// TODO Auto-generated method stub
-
+		System.out.println("****Account settings****");
 	}
 
 }

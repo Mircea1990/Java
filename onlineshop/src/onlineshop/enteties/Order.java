@@ -2,9 +2,9 @@ package onlineshop.enteties;
 
 public interface Order {
 
-	boolean isCreditCardNumberValid();
+	boolean isCreditCardNumberValid(String creditCardNumber);
 
-	void setCreditCardNumber();
+	void setCreditCardNumber(String creditCardNumber);
 
 	void setProducts(Product[] products);
 

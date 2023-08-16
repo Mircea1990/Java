@@ -7,44 +7,44 @@ import onlineshop.enteties.Product;
 
 public class DefaultOrder implements Order {
 
-	private String credidCardNmber;
+	private static final int AMOUNT_OF_DIGITS_IN_CREDIT_CARD_NUMBER = 16;
+
+	private String creditCardNmber;
 	private Product[] products;
 	private int customerId;
 
 	@Override
-	public boolean isCreditCardNumberValid() {
-		// TODO Auto-generated method stub
-		return false;
+	public boolean isCreditCardNumberValid(String creditCardNumber) {
+		return creditCardNumber.toCharArray().length == AMOUNT_OF_DIGITS_IN_CREDIT_CARD_NUMBER
+				&& !creditCardNumber.contains(" ") && Long.parseLong(creditCardNmber) > 0;
 	}
 
 	@Override
-	public void setCreditCardNumber() {
-		// TODO Auto-generated method stub
-
+	public void setCreditCardNumber(String creditCardNumber) {
+		if (creditCardNumber == null)
+			return;
+		this.creditCardNmber = creditCardNumber;
 	}
 
 	@Override
 	public void setProducts(Product[] products) {
-		// TODO Auto-generated method stub
-
+		this.products = products;
 	}
 
 	@Override
 	public void setCostumerId(int costumerId) {
-		// TODO Auto-generated method stub
-
+		this.customerId = costumerId;
 	}
 
 	@Override
 	public int getCustomerId() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.customerId;
 	}
 
 	@Override
 	public String toString() {
-		return "DefaultOrder [credidCardNmber=" + credidCardNmber + ", products=" + Arrays.toString(products)
-				+ ", customerId=" + customerId + "]";
+		return "Order [credidCardNmber=" + creditCardNmber + ", products=" + Arrays.toString(products) + ", customerId="
+				+ customerId + "]";
 	}
 
 }

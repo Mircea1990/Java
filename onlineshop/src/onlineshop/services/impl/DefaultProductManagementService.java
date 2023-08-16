@@ -44,13 +44,15 @@ public class DefaultProductManagementService implements ProductManagementService
 
 	@Override
 	public Product[] getProducts() {
-		// TODO Auto-generated method stub
-		return null;
+		return products;
 	}
 
 	@Override
 	public Product getProductById(int productIdToAddToCart) {
-		// TODO Auto-generated method stub
+		for (Product product : products) {
+			if (product != null && product.getId() == productIdToAddToCart)
+				return product;
+		}
 		return null;
 	}
 

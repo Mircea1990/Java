@@ -1,6 +1,7 @@
 package onlineshop.menu.impl;
 
 import onlineshop.configs.ApplicationContext;
+import onlineshop.enteties.User;
 import onlineshop.menu.Menu;
 import onlineshop.services.UserManagementService;
 import onlineshop.services.impl.DefaultUserManagementService;
@@ -17,14 +18,22 @@ public class CustomerListMenu implements Menu {
 
 	@Override
 	public void start() {
-		// TODO Auto-generated method stub
+		printMenuHeader();
 
+		User[] users = userManagementService.getUsers();
+		if (users.length == 0)
+			System.out.println("Unfortunately, thare are nu customers registered");
+		else {
+			for (User user : users) {
+				System.out.println(user);
+			}
+		}
+		context.getMainMenu().start();
 	}
 
 	@Override
 	public void printMenuHeader() {
-		// TODO Auto-generated method stub
-
+		System.out.println("****Users****");
 	}
 
 }

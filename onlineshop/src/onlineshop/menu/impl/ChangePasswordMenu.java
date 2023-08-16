@@ -1,5 +1,7 @@
 package onlineshop.menu.impl;
 
+import java.util.Scanner;
+
 import onlineshop.configs.ApplicationContext;
 import onlineshop.menu.Menu;
 
@@ -13,14 +15,17 @@ public class ChangePasswordMenu implements Menu {
 
 	@Override
 	public void start() {
-		// TODO Auto-generated method stub
-
+		printMenuHeader();
+		Scanner scanner = new Scanner(System.in);
+		String userInput = scanner.next();
+		context.getLoggedInUser().setPassword(userInput);
+		new MainMenu().start();
 	}
 
 	@Override
 	public void printMenuHeader() {
-		// TODO Auto-generated method stub
-
+		System.out.println("****Change Password****");
+		System.out.println("Enter new password: ");
 	}
 
 }

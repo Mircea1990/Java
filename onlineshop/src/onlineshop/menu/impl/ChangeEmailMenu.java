@@ -1,5 +1,7 @@
 package onlineshop.menu.impl;
 
+import java.util.Scanner;
+
 import onlineshop.configs.ApplicationContext;
 import onlineshop.menu.Menu;
 
@@ -13,13 +15,19 @@ public class ChangeEmailMenu implements Menu {
 
 	@Override
 	public void start() {
-		// TODO Auto-generated method stub
+		printMenuHeader();
+		Scanner scanner = new Scanner(System.in);
+		String userInput = scanner.next();
+		context.getLoggedInUser().setEmail(userInput);
+		System.out.println("Your email has been successfully changed!");
 
+		new MainMenu().start();
 	}
 
 	@Override
 	public void printMenuHeader() {
-		// TODO Auto-generated method stub
+		System.out.println("****Change Email****");
+		System.out.println("Enter new email:");
 
 	}
 

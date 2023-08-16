@@ -4,10 +4,17 @@ import onlineshop.enteties.User;
 
 public class DefaultUser implements User {
 
+	private static int userCounter = 0;
+
+	private int id;
 	private String firstName;
 	private String lastName;
 	private String password;
 	private String email;
+
+	{
+		id = ++userCounter;
+	}
 
 	public DefaultUser() {
 	}
@@ -21,54 +28,51 @@ public class DefaultUser implements User {
 
 	@Override
 	public String getFirstName() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.firstName;
 	}
 
 	@Override
 	public String getLastName() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.lastName;
 	}
 
 	@Override
 	public String getPassword() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.password;
 	}
 
 	@Override
 	public String getEmail() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.email;
 	}
 
 	@Override
 	public int getId() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.id;
 	}
 
 	@Override
 	public void setPassword(String newPassword) {
-		// TODO Auto-generated method stub
+		if (newPassword == null)
+			return;
+		this.password = newPassword;
 
 	}
 
 	@Override
 	public void setEmail(String newEmail) {
-		// TODO Auto-generated method stub
-
+		if (newEmail == null)
+			return;
+		this.email = newEmail;
 	}
 
 	void clearState() {
-
+		userCounter = 0;
 	}
 
 	@Override
 	public String toString() {
-		return "DefaultUser [firstName=" + firstName + ", lastName=" + lastName + ", password=" + password + ", email="
-				+ email + "]";
+		return "FirstName=" + firstName + ", lastName=" + lastName + ", password=" + password + ", email=" + email;
 	}
 
 }

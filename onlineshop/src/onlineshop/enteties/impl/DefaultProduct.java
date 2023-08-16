@@ -21,20 +21,18 @@ public class DefaultProduct implements Product {
 
 	@Override
 	public int getId() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.id;
 	}
 
 	@Override
 	public String getProductName() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.productName;
 	}
 
 	@Override
 	public String toString() {
-		return "DefaultProduct [id=" + id + ", productName=" + productName + ", categoryName=" + categoryName
-				+ ", price=" + price + "]";
+		return "Product [id=" + id + ", productName=" + productName + ", categoryName=" + categoryName + ", price="
+				+ price + "]";
 	}
 
 }
