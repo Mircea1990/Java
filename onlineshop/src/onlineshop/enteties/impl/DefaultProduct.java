@@ -35,4 +35,35 @@ public class DefaultProduct implements Product {
 				+ price + "]";
 	}
 
+	@Override
+	public void setId(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setProductName(String productName) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public String getCategoryName() {
+		return this.categoryName;
+	}
+
+	@Override
+	public void setCategoryName(String categoryName) {
+
+	}
+
+	@Override
+	public double getPrice() {
+		return this.price;
+	}
+
+	@Override
+	public void setPrice(double price) {
+		this.price = price;
+	}
 }

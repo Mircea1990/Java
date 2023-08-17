@@ -19,6 +19,7 @@ public class DefaultCard implements Cart {
 	public boolean isEmpty() {
 		if (products == null || products.length == 0)
 			return true;
+
 		for (Product product : products) {
 			if (product != null)
 				return false;
@@ -39,6 +40,7 @@ public class DefaultCard implements Cart {
 	@Override
 	public Product[] getProducts() {
 		int nonNullProductsAmount = 0;
+
 		for (Product product : products) {
 			if (product != null)
 				nonNullProductsAmount++;
