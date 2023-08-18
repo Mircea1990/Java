@@ -6,7 +6,6 @@ import java.util.Comparator;
 import java.util.List;
 
 import onlineshop.enteties.Product;
-import onlineshop.enteties.impl.ComparableProduct;
 import onlineshop.services.impl.DefaultProductManagementService;
 
 public class ComparisonDemo {
@@ -29,21 +28,6 @@ public class ComparisonDemo {
 		List<Product> products = Arrays.asList(DefaultProductManagementService.getInstance().getProducts());
 		printProductsInNewLine(products);
 
-		System.out.println("\nSorting products");
-		ComparableProduct comparableProduct1 = new ComparableProduct(1, "Product 1", "Category 1", 100);
-		ComparableProduct comparableProduct2 = new ComparableProduct(2, "Product 2", "Category 2", 200);
-		ComparableProduct comparableProduct3 = new ComparableProduct(3, "Product 3", "Category 3", 300);
-		ComparableProduct comparableProduct4 = new ComparableProduct(4, "Product 4", "Category 4", 400);
-
-		List<ComparableProduct> comparableProducts = new ArrayList<ComparableProduct>(
-				Arrays.asList(comparableProduct1, comparableProduct2, comparableProduct3, comparableProduct4));
-		comparableProducts.sort(Comparator.naturalOrder());
-		System.out.println("\nComparator products sorted: ");
-		printProductsInNewLine(comparableProducts);
-
-		comparableProducts.sort(Comparator.reverseOrder());
-		System.out.println("\nComparator products reverse order: ");
-		printProductsInNewLine(comparableProducts);
 	}
 
 	private static void printProductsInNewLine(List<? extends Product> products) {

@@ -49,7 +49,7 @@ class CustomProductComparator implements Comparator<Product> {
 	public int compare(Product product1, Product product2) {
 		int result = product1.getProductName().compareTo(product2.getProductName());
 		if (result == 0) {
-			double priceDelta = product2.getPrice() - product1.getPrice();
+			double priceDelta = product2.getId() - product1.getId();
 			result = priceDelta < 0 ? -1 : (priceDelta == 0) ? 0 : 1;
 		}
 		return result;
