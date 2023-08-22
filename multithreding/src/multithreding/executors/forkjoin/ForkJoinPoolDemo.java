@@ -1,0 +1,17 @@
+package multithreding.executors.forkjoin;
+
+import java.util.concurrent.ForkJoinPool;
+
+public class ForkJoinPoolDemo {
+
+	public static void main(String[] args) {
+		ForkJoinPool commonPool = ForkJoinPool.commonPool();
+
+		ForkJoinPool forkJoinPool1 = new ForkJoinPool(4);
+
+		ForkJoinPool forkJoinPool2 = new ForkJoinPool();
+
+		forkJoinPool2.invoke(new DefaultRecursiveAction(32));
+	}
+
+}
