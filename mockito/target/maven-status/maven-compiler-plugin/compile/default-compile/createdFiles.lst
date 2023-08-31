@@ -2,4 +2,5 @@ org\mock\ToDoService.class
 org\stubbing\ToDoBusiness.class
 org\stubbing\ToDoService.class
 org\stubbing\ToDoServiceStub.class
+org\mock\Utility.class
 org\mock\ToDoBusiness.class
