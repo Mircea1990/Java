@@ -1,0 +1,36 @@
+package org.structural.adapter;
+
+
+// This is the adaptee class
+// This is the class which is used by the Adapter class to reuse the
+// existing functionality and modify them for desired use.
+public class BankDetails {
+
+    private String bankName;
+    private String accHolderName;
+    private long accNumber;
+
+    public String getBankName() {
+        return bankName;
+    }
+
+    public void setBankName(String bankName) {
+        this.bankName = bankName;
+    }
+
+    public String getAccHolderName() {
+        return accHolderName;
+    }
+
+    public void setAccHolderName(String accHolderName) {
+        this.accHolderName = accHolderName;
+    }
+
+    public long getAccNumber() {
+        return accNumber;
+    }
+
+    public void setAccNumber(long accNumber) {
+        this.accNumber = accNumber;
+    }
+}
