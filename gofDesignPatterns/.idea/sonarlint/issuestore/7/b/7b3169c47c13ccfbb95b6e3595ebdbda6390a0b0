@@ -1,12 +1,0 @@
-
-O
-java:S1199$"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¥öØ¬¥1
-r
-java:S1450
-"URemove the "choice" field and declare it as a local variable in the relevant methods.(ÍŠ™»8İİØ¬¥1
->
-java:S6205"Remove this redundant block.(ò÷Ñäÿÿÿÿÿ8ôöØ¬¥1
->
-java:S6205"Remove this redundant block.(€ø¥ÿÿÿÿÿ8õöØ¬¥1
-9
-java:S6205 "Remove this redundant block.(ÁŸò8ööØ¬¥1
