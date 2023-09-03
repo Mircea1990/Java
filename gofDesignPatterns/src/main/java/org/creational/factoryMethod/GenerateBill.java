@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * class is using the GetPlanFactory to get the object of concrete classes by passing an information such as type of
- * plan DOMESTICPLAN or COMMERCIALPLAN or INSTITUTIONALPLAN.
+ * class is using the GetPlanFactory to get the object of concrete classes by passing an information
+ * such as type of plan DOMESTICPLAN or COMMERCIALPLAN or INSTITUTIONALPLAN.
  */
 public class GenerateBill {
 

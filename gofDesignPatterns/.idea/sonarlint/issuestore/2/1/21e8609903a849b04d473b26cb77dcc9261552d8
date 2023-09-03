@@ -1,0 +1,10 @@
+
+p
+java:S1450"SRemove the "resp" field and declare it as a local variable in the relevant methods.(âëÎË8ğÁ°Ë¥1
+L
+java:S1874"0Remove this use of "Observer"; it is deprecated.(º«İ8óÁ°Ë¥1
+T
+java:S1874
+"2Remove this use of "Observable"; it is deprecated.(²ÈŞ¶şÿÿÿÿ8öÁ°Ë¥1
+c
+java:S6201"FReplace this instanceof check and cast with 'instanceof String string'(øœıœ8÷Á°Ë¥1
