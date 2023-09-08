@@ -1,0 +1,11 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8­ÎÏ¢§1
+W
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8®ÎÏ¢§1
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Šìİ8®ÎÏ¢§1
+Q
+java:S1481"4Remove this unused "moneyToTransfer" local variable.(–Èë¾8´ÎÏ¢§1
+O
+java:S1481"-Remove this unused "userToId" local variable.(‰×±şÿÿÿÿ8´ÎÏ¢§1
+K
+java:S1481".Remove this unused "savepoint" local variable.(§İ—8µÎÏ¢§1
