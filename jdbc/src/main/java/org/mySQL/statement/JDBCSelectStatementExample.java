@@ -17,6 +17,7 @@ public class JDBCSelectStatementExample {
                     System.out.println("First Name: " + rs.getString("first_name"));
                     System.out.println("Last Name: " + rs.getString("last_name"));
                     System.out.println("Email: " + rs.getString("email"));
+                    System.out.println("Role: " + rs.getString("fk_user_role"));
                 }
             }
         }

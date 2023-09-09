@@ -13,3 +13,9 @@ c
 3src/main/java/org/mySQL/JDBCTransactionExample.java,b\6\b6e2a77c8e013a2abe2582df4ae10842327109bc
 q
 Asrc/main/java/org/mySQL/statement/JDBCSelectStatementExample.java,9\f\9f12d3ca34d2ebafd83201f17a6acbd4bb91a4b2
+q
+Asrc/main/java/org/mySQL/statement/JDBCDeleteStatementExample.java,e\e\ee965d75dc2d486dea7bf9b99221c8f4df8cc438
+q
+Asrc/main/java/org/mySQL/statement/JDBCUpdateStatementExample.java,2\2\22ab3b76b8f7319350bfccd410fdc7dbe6298f88
+q
+Asrc/main/java/org/mySQL/statement/JDBCInsertStatementExample.java,2\3\2352713834bae8379b574e6d493f2e1f4358eacc

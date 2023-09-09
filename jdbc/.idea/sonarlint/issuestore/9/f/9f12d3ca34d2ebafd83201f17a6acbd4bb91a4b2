@@ -1,6 +1,2 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘®ñ¨8šê•£§1
-V
-java:S1854"9Remove this useless assignment to local variable "query".(ªÊŠÙ8¤ê•£§1
-G
-java:S1481"*Remove this unused "query" local variable.(ªÊŠÙ8¨ê•£§1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘®ñ¨8Ã§³£§1
