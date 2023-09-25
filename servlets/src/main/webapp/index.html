@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Welcome Page</title>
+        <style>
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            input[type="text"], input[type="password"] {
+                max-width: 150px;
+            }
+
+            input[value="Login"] {
+                width: 60px;
+            }
+
+            input[value="Google Search"] {
+                width: 120px;
+            }
+
+            .second-form {
+                margin-top: 40px;
+            }
+        </style>
+        <script>
+            function validateForm() {
+                var nameInput = document.getElementById("userName");
+                var name = nameInput.value.trim();
+
+                if (name === "") {
+                    alert("Please enter your name.");
+                    return false;
+                }
+
+                if (!/^[A-Za-z]{1,10}$/.test(name)) {
+                    alert("Please enter a valid name with 1 to 10 letters only.");
+                    return false;
+                }
+
+                return true;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Welcome Page</h1>
+        <form action="servlet1" method="post" onsubmit="return validateForm()">
+            <label for="userName">Enter your name:</label>
+            <input id="userName" name="userName" required type="text">
+            <br>
+            <label for="userPass">Password:</label>
+            <input id="userPass" name="userPass" type="password">
+            <br>
+            <input type="submit" value="Login">
+        </form>
+
+        <form action="mySearcher" class="second-form">
+            <input name="toSearch" type="text">
+            <input type="submit" value="Google Search">
+        </form>
+    </body>
+</html>
