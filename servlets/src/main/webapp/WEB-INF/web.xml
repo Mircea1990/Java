@@ -1,23 +1,75 @@
-<!DOCTYPE web-app PUBLIC
-        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
-        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         id="WebApp_ID" version="4.0">
 
-<web-app>
     <display-name>Archetype Created Web Application</display-name>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+<!--        <welcome-file>homepage</welcome-file>-->
+
+    </welcome-file-list>
+    
+    <servlet>
+        <servlet-name>AllParams</servlet-name>
+        <servlet-class>com.servletConfig.AllParameters</servlet-class>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>system</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>oracle</param-value>
+        </init-param>
+    </servlet>
 
     <servlet>
         <servlet-name>FirstServlet</servlet-name>
         <servlet-class>com.core.First</servlet-class>
     </servlet>
-    
+
     <servlet>
         <servlet-name>Generic</servlet-name>
         <servlet-class>com.core.Generic</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>DemoServletConfig</servlet-name>
+        <servlet-class>com.servletConfig.DemoServletConfig</servlet-class>
+
+        <init-param>
+            <param-name>driver</param-name>
+            <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet>
+        <servlet-name>helloWorldServlet</servlet-name>
+        <servlet-class>com.jakarta.HelloWorldServlet</servlet-class>
+        <init-param>
+            <param-name>greetings</param-name>
+            <param-value>Hello World</param-value>
+        </init-param>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>helloWorldServlet</servlet-name>
+        <url-pattern>/hello-world</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>FirstServlet</servlet-name>
         <url-pattern>/first</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AllParams</servlet-name>
+        <url-pattern>/allParams</url-pattern>
     </servlet-mapping>
 
     <servlet-mapping>
