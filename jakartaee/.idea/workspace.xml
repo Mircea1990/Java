@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4d0a416-320d-4a33-9417-8f6172525a12" name="Changes" comment="">
+    <list default="true" id="f4d0a416-320d-4a33-9417-8f6172525a12" name="Changes" comment="jakarta demo">
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -114,7 +114,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "D:/Mircea/Udemy/Java/JavaRepository/jakartaee/servlet/httpservletmapping/src/main/webapp",
     "project.structure.last.edited": "Modules",
@@ -315,6 +315,14 @@
       <option name="presentableId" value="Default" />
       <updated>1695726187317</updated>
     </task>
+    <task id="LOCAL-00001" summary="jakarta demo">
+      <created>1695825402910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695825402910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +335,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jakarta demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="jakarta demo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
