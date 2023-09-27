@@ -3,8 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
     <artifactId>servlets</artifactId>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>asyncServlet</module>
+    </modules>
     <name>servlets Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <properties>

@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="servlets" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="asyncServlet" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

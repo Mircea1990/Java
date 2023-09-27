@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4d0a416-320d-4a33-9417-8f6172525a12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87692ca4a2693c3b31fdb9c79ba9172ee448ee3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/900eb5cb0f12d58a0875811638feffcd65896603" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93fb2c667c9837b7ef5a150b363c0c05f63901e8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/87692ca4a2693c3b31fdb9c79ba9172ee448ee3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/0/900eb5cb0f12d58a0875811638feffcd65896603" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/3/93fb2c667c9837b7ef5a150b363c0c05f63901e8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asyncServlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpServlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpServletMapping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpSessionAttributeListener.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jakartaee.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/asyncServlet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/asyncServlet/src/main/src/main/java/AsyncServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/asyncServlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/asyncServlet/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/explainingHttpServlet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/explainingHttpServlet/src/main/java/core/ExplainingHttpServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/explainingHttpServlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/explainingHttpServlet/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/httpServletMapping/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/httpServletMapping/src/main/java/HttpServletMappingServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/httpServletMapping/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/httpServletMapping/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/httpServletMapping/src/test/main/java/HttpServletMappingServletIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/httpSessionAttributeListener/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/httpSessionAttributeListener/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/httpSessionAttributeListener/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/DebugOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/ITBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/IgnoringIncorrectnessListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlets/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servlets/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlets/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servlets/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlets/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servlets/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlets/.idea/sonarlint/issuestore/2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392" beforeDir="false" afterPath="$PROJECT_DIR$/../servlets/.idea/sonarlint/issuestore/2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlets/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../servlets/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlets/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../servlets/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servlets/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlets/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servlets/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Vvp0UiUu7WFO1uhI4gccZCaqFJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Mircea/Udemy/Java/JavaRepository/jakartaee/servlet/httpservletmapping/src/main/webapp",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "preferences.customizations",
+    "settings.editor.splitter.proportion": "0.18552732"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="src.main.java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Mircea\Udemy\Java\JavaRepository\jakartaee" />
+      <recent name="D:\Mircea\Udemy\Java\JavaRepository\jakartaee\servlet" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HttpServletMappingServletIT (1)">
+    <configuration name="All in httpservletmapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="httpServletMapping" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpServletMappingServletIT (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="httpServletMapping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.HttpServletMappingServletIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpServletMappingServletIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="httpServletMapping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.core" />
+      <option name="MAIN_CLASS_NAME" value="java.core.HttpServletMappingServletIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpServletMappingServletIT.testHttpServletMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="httpServletMapping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.HttpServletMappingServletIT" />
+      <option name="METHOD_NAME" value="testHttpServletMapping" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="src.main.java in jakartaee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jakartaee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.main.java" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
+      <option name="passParentEnvironments" value="true" />
+      <option name="workspaceLocation" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExplainingHttpServlet" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\User\.SmartTomcat\jakartaee" />
+      <option name="contextPath" value="/explainingHttpServlet" />
+      <option name="docBase" value="D:\Mircea\Udemy\Java\JavaRepository\jakartaee\servlet\explainingHttpServlet\src\main\webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.13" />
+          <option name="path" value="C:/Program Files/Apache Software Foundation/apache-tomcat-10.1.13" />
+          <option name="version" value="10.1.13.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="httpServlet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="asyncServlet" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\User\.SmartTomcat\jakartaee\asyncServlet" />
+      <option name="contextPath" value="/asyncServlet" />
+      <option name="docBase" value="$PROJECT_DIR$/servlet/asyncServlet/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.13" />
+          <option name="path" value="C:/Program Files/Apache Software Foundation/apache-tomcat-10.1.13" />
+          <option name="version" value="10.1.13.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="asyncServlet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="httpServletMappingServlet" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\User\.SmartTomcat\jakartaee" />
+      <option name="contextPath" value="/HttpServletMappingServlet" />
+      <option name="docBase" value="D:\Mircea\Udemy\Java\JavaRepository\jakartaee\servlet\httpservletmapping\src\main\webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.13" />
+          <option name="path" value="C:/Program Files/Apache Software Foundation/apache-tomcat-10.1.13" />
+          <option name="version" value="10.1.13.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="httpServletMapping" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in httpservletmapping" />
+      <item itemvalue="JUnit.HttpServletMappingServletIT" />
+      <item itemvalue="JUnit.HttpServletMappingServletIT (1)" />
+      <item itemvalue="JUnit.HttpServletMappingServletIT.testHttpServletMapping" />
+      <item itemvalue="JUnit.src.main.java in jakartaee" />
+      <item itemvalue="Smart Tomcat.asyncServlet" />
+      <item itemvalue="Smart Tomcat.ExplainingHttpServlet" />
+      <item itemvalue="Smart Tomcat.httpServletMappingServlet" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HttpServletMappingServletIT (1)" />
+        <item itemvalue="JUnit.HttpServletMappingServletIT.testHttpServletMapping" />
+        <item itemvalue="JUnit.All in httpservletmapping" />
+        <item itemvalue="JUnit.HttpServletMappingServletIT" />
+        <item itemvalue="JUnit.src.main.java in jakartaee" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4d0a416-320d-4a33-9417-8f6172525a12" name="Changes" comment="" />
+      <created>1695726187317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695726187317</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
