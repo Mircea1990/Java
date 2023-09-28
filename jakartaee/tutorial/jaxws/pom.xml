@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>jakarta.examples.tutorial</groupId>
+    <artifactId>examples</artifactId>
+    <version>10-SNAPSHOT</version>
+  </parent>
+
+  <groupId>jakarta.examples.tutorial.jaxws</groupId>
+  <artifactId>parent</artifactId>
+  <packaging>pom</packaging>
+
+  <name>jaxws</name>
+
+  <modules>
+    <module>helloservice-war</module>
+    <module>hello-appclient</module>
+    <module>hello-webclient</module>
+  </modules>
+
+  <properties>
+    <jaxws.maven.plugin.version>2.6</jaxws.maven.plugin.version>
+    <jaxws.tools.version>3.0.0</jaxws.tools.version>
+  </properties>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>jaxws-maven-plugin</artifactId>
+          <version>${jaxws.maven.plugin.version}</version>
+          <dependencies>
+            <dependency>
+              <groupId>com.sun.xml.ws</groupId>
+              <artifactId>jaxws-tools</artifactId>
+              <version>${jaxws.tools.version}</version>
+            </dependency>
+          </dependencies>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>

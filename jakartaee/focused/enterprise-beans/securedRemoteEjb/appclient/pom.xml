@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>jakarta.examples.focused.ejb.securedremoteejb</groupId>
+        <artifactId>project</artifactId>
+        <version>10-SNAPSHOT</version>
+    </parent>
+
+    <groupId>jakarta.examples.focused.ejb.securedremoteejb</groupId>
+    <artifactId>appclient</artifactId>
+    <version>10-SNAPSHOT</version>
+    <packaging>app-client</packaging>
+
+    <name>A secured remote EJB Application Client</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.examples.focused.ejb.securedremoteejb</groupId>
+            <artifactId>ejb</artifactId>
+            <version>${project.version}</version>
+            <classifier>client</classifier>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-acr-plugin</artifactId>
+                <version>1.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>                 
+                            <mainClass>jakarta.examples.focused.ejb.securedremoteejb.appclient.Client</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin> 
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.1.1</version>
+                <executions>
+                    <execution>
+                        <id>copy</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy</goal>
+                        </goals>
+                        <configuration>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>jakarta.examples.focused.ejb.securedremoteejb</groupId>
+                                    <artifactId>ejb</artifactId>
+                                    <version>${project.version}</version>
+                                    <classifier>client</classifier>
+                                    <outputDirectory>${project.build.directory}</outputDirectory>
+                                </artifactItem>
+                            </artifactItems>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!DOCTYPE html>
+<html xmlns:h="jakarta.faces.html"
+      xmlns:ez="jakarta.faces.composite.ezcomp"
+      lang="en"
+      xmlns="http://www.w3.org/1999/xhtml">
+    
+    <h:head>
+        <title>Prime Page</title>
+    </h:head>
+    <h:body>
+        <h2>Are You Prime?</h2>
+        
+        <p>Enter your name, or any word or phrase you like, and we'll tell you
+            if the sum of the letter values is a prime number.</p>
+        <h:form>
+            
+            <div id="compositeComponent">
+                <ez:PrimePanel primeBean="#{primeBean}"
+                               calcAction="#{primeBean.calculate}">
+                </ez:PrimePanel>
+            </div>
+        
+        </h:form>
+    </h:body>
+</html>

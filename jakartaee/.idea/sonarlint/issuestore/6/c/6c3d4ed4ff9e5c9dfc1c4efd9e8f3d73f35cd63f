@@ -1,0 +1,11 @@
+
+P
+java:S1141D"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+7
+java:S1643O"Use a StringBuilder instead.(‰¹ÄÎûÿÿÿÿ
+t
+java:S2142F"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+>	java:S108F")Either remove or fill this block of code.(ä ¹€
+b
+java:S2677I"LUse or store the value returned from "readLine" instead of throwing it away.(»“ ·
+>	java:S108R")Either remove or fill this block of code.(ï­£Ä

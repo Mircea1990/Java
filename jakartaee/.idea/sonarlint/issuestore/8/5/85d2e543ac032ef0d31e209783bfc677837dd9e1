@@ -1,0 +1,13 @@
+
+_
+java:S6208Í"CMerge the previous cases into this one using comma-separated label.(œŸêÃúÿÿÿÿ
+_
+java:S6208Ò"CMerge the previous cases into this one using comma-separated label.(Á±ööùÿÿÿÿ
+8
+java:S1643æ"Use a StringBuilder instead.(Óû®ªÿÿÿÿÿ
+œ
+java:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ì¾ïéÿÿÿÿÿ
+D
+java:S1948,")Make "rowList" transient or serializable.(‰ŞÄªÿÿÿÿÿ
+5
+java:S2119¦"Save and re-use this "Random".(Ö€¾

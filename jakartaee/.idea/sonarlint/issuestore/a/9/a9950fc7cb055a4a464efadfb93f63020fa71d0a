@@ -1,0 +1,12 @@
+
+:
+java:S2629-"$Invoke method(s) only conditionally.(§‰Óí
+œ
+java:S1186b"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ùÓ¾²øÿÿÿÿ
+œ
+java:S1186e"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸—‘Úúÿÿÿÿ
+b
+java:S26772"LUse or store the value returned from "readLine" instead of throwing it away.(»“ ·
+b
+java:S26773"LUse or store the value returned from "readLine" instead of throwing it away.(»“ ·
+>	java:S108J")Either remove or fill this block of code.(ï­£Ä

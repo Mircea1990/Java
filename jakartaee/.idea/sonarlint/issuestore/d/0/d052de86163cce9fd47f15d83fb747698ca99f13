@@ -1,0 +1,19 @@
+
+P
+java:S1141U"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+H
+java:S11993"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+r
+java:S3008"WRename this field "PRODUCT_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ë‰Ÿùÿÿÿÿ
+D
+java:S3010"")Remove this assignment of "PRODUCT_NAME".(Ðü±¾üÿÿÿÿ
+4
+java:S2119-"Save and re-use this "Random".(¿¯³Ñ
+i
+java:S6201X"NReplace this instanceof check and cast with 'instanceof MapMessage mapmessage'(„ÓËôüÿÿÿÿ
+D
+java:S1905†"(Remove this unnecessary cast to "Queue".(ßé©ºùÿÿÿÿ
+u
+java:S2142¡"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+?	java:S108¡")Either remove or fill this block of code.(ä ¹€
+D	java:S108¤")Either remove or fill this block of code.(Ë©Â”üÿÿÿÿ

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:h="jakarta.faces.html"
+      lang="en"
+      xmlns="http://www.w3.org/1999/xhtml">
+    <h:head>
+        <title>The Phone Billing Example Application</title>
+        <h:outputStylesheet library="css" name="default.css"/>
+    </h:head>
+    <body>
+        <h1>The Phone Billing Example Application</h1>
+        <h2>Log file</h2>
+        <p>The batch job analyzes the following log file:</p>
+        <textarea cols="90" rows="25"
+                  readonly="true">#{jsfBean.createAndShowLog()}</textarea>
+        <p></p>
+        <h:form>
+            <h:commandButton value="Start Batch Job"
+                             action="#{jsfBean.startBatchJob()}"/>
+        </h:form>
+    </body>
+</html>

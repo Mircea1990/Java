@@ -1,0 +1,12 @@
+
+7
+java:S1170 "!Make this final field static too.(Ãü¡
+V	java:S125#"<This block of commented-out lines of code should be removed.(¾†ôæÿÿÿÿÿ
+V	java:S1258"<This block of commented-out lines of code should be removed.( û¬·şÿÿÿÿ
+Q	java:S125>"<This block of commented-out lines of code should be removed.(ÏıŞƒ
+Q	java:S125Q"<This block of commented-out lines of code should be removed.(”ş…ï
+V	java:S125j"<This block of commented-out lines of code should be removed.(şÌÎ«øÿÿÿÿ
+E
+java:S2093r"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+D
+java:S1068 ".Remove this unused "UPLOAD_DIR" private field.(Ãü¡

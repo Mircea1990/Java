@@ -1,0 +1,12 @@
+
+Q
+java:S3740!"/Provide the parametrized type for this generic.(„òÈšøÿÿÿÿ8¦£à×­1
+Q
+java:S3740D"/Provide the parametrized type for this generic.(‹—Ò°úÿÿÿÿ8¥úˆ¾­1
+€
+java:S1450"^Remove the "executorService" field and declare it as a local variable in the relevant methods.(šüšòúÿÿÿÿ8±£à×­1
+S
+java:S1948"1Make "executorService" transient or serializable.(šüšòúÿÿÿÿ8±£à×­1
+I
+java:S1948!"'Make "queue" transient or serializable.(„òÈšøÿÿÿÿ8±£à×­1
+E	java:S108@")Either remove or fill this block of code.(Æâ­ê8Äúˆ¾­1

@@ -1,0 +1,8 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(òÀ¸ò
+y
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(øôÔ×ûÿÿÿÿ
+C	java:S108")Either remove or fill this block of code.(øôÔ×ûÿÿÿÿ
+F
+java:S2446!"0"notify" may not wake up the appropriate thread.(­ÀôÉ

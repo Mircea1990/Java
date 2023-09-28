@@ -1,0 +1,11 @@
+
+<
+java:S1170"!Make this final field static too.(ÓÝÝ‹ÿÿÿÿÿ
+œ
+java:S1186!"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(½œÝêúÿÿÿÿ
+C
+java:S1948"(Make "client" transient or serializable.(‚Ø–øùÿÿÿÿ
+>
+java:S1948"(Make "target" transient or serializable.(ƒº€þ
+@
+java:S1068"*Remove this unused "target" private field.(ƒº€þ

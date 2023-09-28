@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!DOCTYPE html>
+<html xmlns:h="jakarta.faces.html"
+      xmlns:faces="jakarta.faces"
+      lang="en"
+      xmlns="http://www.w3.org/1999/xhtml">
+    
+    <h:head>
+    </h:head>
+    <h:body>
+        <h:outputStylesheet name="css/stylesheet.css" target="head"/>
+        
+        <h:form>
+            <h2>Reservation Confirmation</h2>
+            <p>
+                <output faces:id="confirm" name="confirm">
+                    Thanks for your reservation, #{reservationBean.name}.
+                    #{reservationBean.tickets} tickets are confirmed for #{reservationBean.date}.
+                    Your total amount is #{reservationBean.totalValue}.
+                    No email has actually been sent to #{reservationBean.email}.
+                </output>
+            </p>
+            <p>
+                <h:commandButton value="Back" action="reservation"/>
+            </p>
+        </h:form>
+    </h:body>
+</html>

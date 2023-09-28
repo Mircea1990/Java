@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>jakarta.examples.tutorial.jaxws</groupId>
+    <artifactId>parent</artifactId>
+    <version>10-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>hello-webclient</artifactId>
+  <packaging>war</packaging>
+
+  <name>hello-webclient</name>
+  <description>A simple web service client for helloservice.</description>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>jaxws-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>wsimport</goal>
+            </goals>
+            <configuration>
+              <wsdlDirectory>${basedir}/../helloservice-war/target/generated-sources/wsdl</wsdlDirectory>
+              <wsdlFiles>
+                <wsdlFile>HelloService.wsdl</wsdlFile>
+              </wsdlFiles>
+              <wsdlLocation>http://localhost:8080/helloservice-war/HelloService?WSDL</wsdlLocation>
+              <packageName>jakarta.examples.tutorial.helloservice.endpoint</packageName>
+            </configuration>
+            <phase>generate-sources</phase>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

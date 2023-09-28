@@ -1,0 +1,13 @@
+
+2
+java:S16430"Use a StringBuilder instead.(ØªŒ¨
+?
+java:S1948!"$Make "em" transient or serializable.(Æç³šûÿÿÿÿ
+H
+java:S1948#"-Make "jobOperator" transient or serializable.(ÖíÃ›úÿÿÿÿ
+“
+java:S1130&"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(«ÿÙŒýÿÿÿÿ
+Ž
+java:S1130K"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(û˜«˜
+E
+java:S1068"*Remove this unused "logger" private field.(Ò…Î“ýÿÿÿÿ

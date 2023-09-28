@@ -1,0 +1,7 @@
+
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–§´ì
+r
+java:S1450"WRemove the "fileName" field and declare it as a local variable in the relevant methods.(·‡–Ûüÿÿÿÿ
+g
+java:S2677&"LUse or store the value returned from "readLine" instead of throwing it away.(µžØ›øÿÿÿÿ

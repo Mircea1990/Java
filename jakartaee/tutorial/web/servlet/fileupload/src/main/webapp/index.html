@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>File Upload</title>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    </head>
+    <body>
+        <form action="upload" enctype="multipart/form-data" method="POST">
+            File:
+            <input id="file" name="file" type="file"/> <br/>
+            Destination:
+            <input name="destination" type="text" value="/tmp"/>
+            <br/>
+            <input id="upload" name="upload" type="submit" value="Upload"/>
+        </form>
+    </body>
+</html>

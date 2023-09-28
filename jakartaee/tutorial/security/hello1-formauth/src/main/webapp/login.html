@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login Form</title>
+    </head>
+    <body>
+        <h2>Hello, please log in:</h2>
+        <form action="j_security_check" method="post">
+            <table role="presentation">
+                <tr>
+                    <td>Please type your user name:</td>
+                    <td><input name="j_username" size="20"
+                               type="text"/></td>
+                </tr>
+                <tr>
+                    <td>Please type your password:</td>
+                    <td><input name="j_password" size="20"
+                               type="password"/></td>
+                </tr>
+            </table>
+            <p></p>
+            <input type="submit" value="Submit"/>
+            &nbsp;
+            <input type="reset" value="Reset"/>
+        </form>
+    </body>
+</html>

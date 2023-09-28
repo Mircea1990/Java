@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:h="jakarta.faces.html"
+      xmlns:f="jakarta.faces.core"
+      lang="en"
+      xmlns="http://www.w3.org/1999/xhtml">
+    
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <h:outputStylesheet library="css" name="stylesheet.css"/>
+        <title>Checkout Module: Entry Page (Order)</title>
+    </h:head>
+    <h:body>
+        <h:form prependId="false">
+            <h:graphicImage url="#{resource['images:duke.books.gif']}"
+                            alt="Duke carrying books"/>
+            <h2>Order Page</h2>
+            <p>You have ordered #{checkoutBean.numItems}
+                books at a cost of
+                <h:outputText value="#{checkoutBean.cost}">
+                    <f:convertNumber currencySymbol="$" type="currency"/>
+                </h:outputText>
+                .
+            </p>
+            <p>Click Check Out to check out your order and enter the checkout
+                flow.</p>
+            <p>
+                <h:commandButton value="Check Out" action="checkoutFlow"/>
+            </p>
+            <p>Click Join to join our mailing list or club and enter the join
+                flow.</p>
+            <p>
+                <h:commandButton value="Join" action="joinFlow"/>
+            </p>
+            <p>This page is the exit point for the checkout flow pages.</p>
+        </h:form>
+    </h:body>
+</html>

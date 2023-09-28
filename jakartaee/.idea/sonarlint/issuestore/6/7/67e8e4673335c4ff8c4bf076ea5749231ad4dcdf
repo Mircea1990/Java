@@ -1,0 +1,10 @@
+
+m
+java:S1450""WRemove the "username" field and declare it as a local variable in the relevant methods.(‘ó¹²
+R	java:S107("=Method has 10 parameters, which is greater than 7 authorized.(ö¿£
+Q	java:S107w"<Method has 9 parameters, which is greater than 7 authorized.(›ÓÚå
+R	java:S107Ø"<Method has 8 parameters, which is greater than 7 authorized.(¬§Öş
+ƒ
+java:S1130Õ"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(½à¥
+B
+java:S1068"",Remove this unused "username" private field.(‘ó¹²

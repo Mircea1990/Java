@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/enterprise-beans/remoteEjb/client/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/enterprise-beans/remoteEjb/ear/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/enterprise-beans/remoteEjb/ejb/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/enterprise-beans/securedRemoteEjb/appclient/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/enterprise-beans/securedRemoteEjb/ejb/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/actionListener/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/actionListener/src/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/ajax/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/applicationMap/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/applicationScoped/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/applicationScoped/src/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/commandScript/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/commandScript/src/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/externalContext/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/facesConfig/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/facesConfig/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/rest/helloWorld/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/utils/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/persistence/column/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/persistence/column/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/persistence/converter/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/persistence/id/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/persistence/joinedInheritance/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: jakarta.platform:jakarta.jakartaee-api:9.1.0" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.13.2" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="6aa975ec-e157-4d79-8edd-278139f781b4" />
+  </component>
+</module>

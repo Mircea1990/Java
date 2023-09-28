@@ -1,0 +1,13 @@
+
+6
+java:S1170"!Make this final field static too.(Ý•¯t
+k
+java:S1450 "URemove the "events" field and declare it as a local variable in the relevant methods.(‚¥ÿ–
+C
+java:S1948!"(Make "client" transient or serializable.(‚Ø–øùÿÿÿÿ
+>
+java:S1948""(Make "target" transient or serializable.(ƒº€þ
+@
+java:S1068 "*Remove this unused "events" private field.(‚¥ÿ–
+@
+java:S1068""*Remove this unused "target" private field.(ƒº€þ

@@ -1,0 +1,15 @@
+
+f
+java:S1450"QRemove the "cb" field and declare it as a local variable in the relevant methods.(¤¹äz
+V
+java:S1854ƒ":Remove this useless assignment to local variable "result".(ğû®üÿÿÿÿ
+U
+java:S1854m":Remove this useless assignment to local variable "result".(ƒ›Á€ÿÿÿÿÿ
+P
+java:S1854k":Remove this useless assignment to local variable "result".(‰¼÷†
+P
+java:S1854i":Remove this useless assignment to local variable "result".(ü¡çĞ
+A
+java:S1481i"+Remove this unused "result" local variable.(ü¡çĞ
+;
+java:S1068"&Remove this unused "cb" private field.(¤¹äz

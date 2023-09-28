@@ -1,0 +1,14 @@
+
+D
+java:S3740C"/Provide the parametrized type for this generic.(‰Çîz
+f
+java:S1301%"KReplace this "switch" statement by "if" statements to increase readability.(œöû‡ùÿÿÿÿ
+f
+java:S1301E"KReplace this "switch" statement by "if" statements to increase readability.(œöû‡ùÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ž–ïÓ
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­œø¤ûÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(•ò¾”
+<	java:S131%""Add a default case to this switch.(œöû‡ùÿÿÿÿ
+<	java:S131E""Add a default case to this switch.(œöû‡ùÿÿÿÿ
