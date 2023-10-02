@@ -4,15 +4,6 @@ This repository contains code examples for Jakarta EE 10.
 
 A selection of these examples have an elaborate explanation in the Jakarta EE Tutorial.
 
-The Jakarta EE Tutorial is located in a separate repository
-[eclipse-ee4j/jakartaee-tutorial](https://github.com/eclipse-ee4j/jakartaee-tutorial).
-
-Note that this project, as the tutorial, is currently very much a work in progress.
-
-### Types of examples
-
-We use various different types of examples, as detailed below.
-
 ### Focused
 
 [Focused](focused/README.md) examples demonstrate a single Jakarta technology and/or a single Jakarta API in a coherent
@@ -42,17 +33,4 @@ server/runtime.
 ### Tutorial
 
 [Tutorial](tutorial/README.md) examples are examples that happen to be used in the current version of the tutorial. They
-are a mix of focused examples, and more elaborate examples. They are currently specifically a work in progress and may
-be moved to various other locations within this repo.
-
-### Eleborate (future)
-
-Eleborate examples are more complex and demonstrate multiple technologies and APIs to work together towards some
-practical goal.
-
-### Applications (future)
-
-Actual applications that are an example of how to use Jakarta EE for a specific sector, industry, or type of
-application. E.g. an example application for a pet store, a cargo tracker, etc.
-
-See [Java EE Kickoff](https://github.com/javaeekickoff) for an idea of what example applications could be included here.
+are a mix of focused examples, and more elaborate examples. 
