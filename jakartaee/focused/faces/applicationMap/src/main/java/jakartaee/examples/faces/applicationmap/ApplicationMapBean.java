@@ -13,13 +13,17 @@ import java.util.Map;
  * A request scoped bean for the injected ApplicationMap example.
  */
 @Named(value = "applicationMapBean") @RequestScoped
-@FacesConfig(version = FacesConfig.Version.JSF_2_3) public class ApplicationMapBean
+@FacesConfig public class ApplicationMapBean
         implements Serializable {
 
     /**
      * Stores the application map.
      */
-    @Inject @ApplicationMap private Map<String, Object> applicationMap;
+    @Inject @ApplicationMap private final transient Map<String, Object> applicationMap;
+
+    public ApplicationMapBean(Map<String, Object> applicationMap) {
+        this.applicationMap = applicationMap;
+    }
 
     /**
      * Get the application map.

@@ -12,7 +12,7 @@ import java.io.Serializable;
  * A request scoped bean injecting the ExternalContext.
  */
 @Named(value = "externalContextBean") @RequestScoped
-@FacesConfig(version = FacesConfig.Version.JSF_2_3) public class ExternalContextBean
+@FacesConfig public class ExternalContextBean
         implements Serializable {
 
     /**

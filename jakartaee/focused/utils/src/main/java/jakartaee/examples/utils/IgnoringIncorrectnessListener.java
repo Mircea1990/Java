@@ -12,7 +12,7 @@ import com.gargoylesoftware.htmlunit.IncorrectnessListener;
 public class IgnoringIncorrectnessListener implements IncorrectnessListener {
 
     @Override public void notify(String message, Object origin) {
-
+        // TODO document why this method is empty
     }
 
 }

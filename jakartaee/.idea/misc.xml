@@ -12,6 +12,7 @@
     <resource url="http://java.sun.com/dtd/web-app_2_3.dtd" location="$USER_HOME$/AppData/Local/JetBrains/IdeaIE2022.2/extResources/d664ad10_web-app_2_3.dtd" />
     <resource url="http://www.w3.org/2001/xml.xsd" location="$USER_HOME$/AppData/Local/JetBrains/IdeaIE2022.2/extResources/9b192256_xml.xsd" />
     <resource url="http://xmlns.jcp.org/jsf/html" location="$PROJECT_DIR$" />
+    <resource url="http://xmlns.jcp.org/xml/ns/javaee/index.html" location="$PROJECT_DIR$" />
     <resource url="http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" location="$USER_HOME$/AppData/Local/JetBrains/IdeaIE2022.2/extResources/5c989588_web-app_4_0.xsd" />
     <resource url="https://jakarta.ee/xml/ns/jakartaee/application-client_10.xsd" location="$USER_HOME$/AppData/Local/JetBrains/IdeaIE2022.2/extResources/be74906_application-client_10.xsd" />
     <resource url="https://jakarta.ee/xml/ns/jakartaee/jakartaee_10.xsd" location="$USER_HOME$/AppData/Local/JetBrains/IdeaIE2022.2/extResources/201767d2_jakartaee_10.xsd" />
