@@ -9,9 +9,9 @@ import jakarta.inject.Named;
 import java.io.Serializable;
 
 /**
- * A request scoped bean validating that JSF is in 2.3 mode.
+ * A request scoped bean
  */
-@Named(value = "facesConfigBean") @RequestScoped @FacesConfig(version = FacesConfig.Version.JSF_2_3)
+@Named(value = "facesConfigBean") @RequestScoped @FacesConfig
 public class FacesConfigBean implements Serializable {
 
     /**

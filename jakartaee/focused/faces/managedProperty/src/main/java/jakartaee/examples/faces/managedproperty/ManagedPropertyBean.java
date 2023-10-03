@@ -12,7 +12,7 @@ import jakarta.inject.Named;
  * A bean using a managed property.
  */
 @Named(value = "managedPropertyBean") @RequestScoped
-@FacesConfig(version = FacesConfig.Version.JSF_2_3) public class ManagedPropertyBean
+@FacesConfig public class ManagedPropertyBean
         implements Serializable {
 
     /**

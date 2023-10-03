@@ -13,7 +13,7 @@ import jakarta.inject.Named;
  * A request scoped bean injecting the init parameter map.
  */
 @Named(value = "initParameterMapBean") @RequestScoped
-@FacesConfig(version = FacesConfig.Version.JSF_2_3) public class InitParameterMapBean
+@FacesConfig public class InitParameterMapBean
         implements Serializable {
 
     /**

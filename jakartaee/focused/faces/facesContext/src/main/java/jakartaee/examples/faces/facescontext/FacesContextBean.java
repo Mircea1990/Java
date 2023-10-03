@@ -12,7 +12,7 @@ import jakarta.inject.Named;
  * A request scoped bean injecting the FacesContext.
  */
 @Named(value = "facesContextBean") @RequestScoped
-@FacesConfig(version = FacesConfig.Version.JSF_2_3) public class FacesContextBean
+@FacesConfig public class FacesContextBean
         implements Serializable {
 
     /**

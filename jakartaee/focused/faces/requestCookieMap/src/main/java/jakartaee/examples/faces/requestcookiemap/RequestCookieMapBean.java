@@ -13,7 +13,7 @@ import jakarta.inject.Named;
  * A request scoped bean injecting the request cookie map.
  */
 @Named(value = "requestCookieMapBean") @RequestScoped
-@FacesConfig(version = FacesConfig.Version.JSF_2_3) public class RequestCookieMapBean
+@FacesConfig public class RequestCookieMapBean
         implements Serializable {
 
     /**

@@ -6,7 +6,7 @@ import jakarta.faces.annotation.FacesConfig;
 import java.io.Serializable;
 
 /**
- * An application scoped bean activating JSF 2.3 mode.
+ * An application scoped bean
  */
-@ApplicationScoped @FacesConfig(version = FacesConfig.Version.JSF_2_3)
+@ApplicationScoped @FacesConfig
 public class FacesConfigActivator implements Serializable {}

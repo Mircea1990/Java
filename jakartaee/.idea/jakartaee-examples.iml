@@ -32,6 +32,21 @@
       <sourceFolder url="file://$MODULE_DIR$/focused/faces/commandScript/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/focused/faces/csrf/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/focused/rest/put/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/facesContext/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/form/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/initParameterMap/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/inputFile/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/inputSecret/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/inputText/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/link/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/managedConverter/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/managedProperty/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/managedValidator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/outputLabel/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/outputStylesheet/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/outputText/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/param/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/requestCookieMap/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

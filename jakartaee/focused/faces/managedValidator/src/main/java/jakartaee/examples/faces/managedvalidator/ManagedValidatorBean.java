@@ -7,7 +7,7 @@ import jakarta.faces.annotation.FacesConfig;
 /**
  * The bean for the CDI managed validator example.
  */
-@Named @RequestScoped @FacesConfig(version = FacesConfig.Version.JSF_2_3)
+@Named @RequestScoped @FacesConfig
 public class ManagedValidatorBean {
 
     /**
