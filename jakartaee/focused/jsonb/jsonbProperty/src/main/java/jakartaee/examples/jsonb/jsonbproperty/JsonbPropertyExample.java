@@ -10,23 +10,23 @@ public class JsonbPropertyExample {
     /**
      * Stores the string.
      */
-    @JsonbProperty("another_name") private String string;
+    @JsonbProperty("another_name") private String name;
 
     /**
      * Get the string.
      *
      * @return the string.
      */
-    public String getString() {
-        return string;
+    public String getName() {
+        return name;
     }
 
     /**
      * Set the string.
      *
-     * @param string the string.
+     * @param name the string.
      */
-    public void setString(String string) {
-        this.string = string;
+    public void setName(String name) {
+        this.name = name;
     }
 }

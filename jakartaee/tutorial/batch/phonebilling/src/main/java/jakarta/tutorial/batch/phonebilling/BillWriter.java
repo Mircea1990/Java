@@ -1,16 +1,16 @@
 package jakarta.tutorial.batch.phonebilling;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.Serializable;
-import java.text.SimpleDateFormat;
-import java.util.List;
-
 import jakarta.batch.api.chunk.ItemWriter;
 import jakarta.enterprise.context.Dependent;
 import jakarta.inject.Named;
 import jakarta.tutorial.batch.phonebilling.items.CallRecord;
 import jakarta.tutorial.batch.phonebilling.items.PhoneBill;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.Serializable;
+import java.text.SimpleDateFormat;
+import java.util.List;
 
 /* Writer artifact.
  * Write each bill to a text file.

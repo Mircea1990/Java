@@ -132,12 +132,10 @@ import jakarta.validation.constraints.NotNull;
     }
 
     @Override public boolean equals(Object object) {
-        if (!(object instanceof Book)) {
+        if (!(object instanceof Book other)) {
             return false;
         }
-        Book other = (Book) object;
-        return this.bookId != null || this.bookId == null && other.bookId == null ||
-               this.bookId.equals(other.bookId);
+        return this.bookId != null || other.bookId == null || this.bookId.equals(other.bookId);
     }
 
     @Override public String toString() {

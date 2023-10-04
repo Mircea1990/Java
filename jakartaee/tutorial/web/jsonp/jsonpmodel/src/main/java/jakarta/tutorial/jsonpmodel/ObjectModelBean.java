@@ -234,36 +234,34 @@ import jakarta.json.stream.JsonGenerator;
     /* Used to populate rowList to display the DOM tree on a JSF table */
     public void printTree(JsonValue tree, int level, String key) {
         switch (tree.getValueType()) {
-            case OBJECT:
+            case OBJECT -> {
                 JsonObject object = (JsonObject) tree;
                 rowList.add(new DOMTreeRow(level, tree.getValueType().toString(), key, "--"));
                 for (String name : object.keySet()) {
                     this.printTree(object.get(name), level + 1, name);
                 }
-                break;
-            case ARRAY:
+            }
+            case ARRAY -> {
                 JsonArray array = (JsonArray) tree;
                 rowList.add(new DOMTreeRow(level, tree.getValueType().toString(), key, "--"));
                 for (JsonValue val : array) {
                     this.printTree(val, level + 1, "");
                 }
-                break;
-            case STRING:
+            }
+            case STRING -> {
                 JsonString st = (JsonString) tree;
                 rowList.add(
                         new DOMTreeRow(level, tree.getValueType().toString(), key, st.getString()));
-                break;
-            case NUMBER:
+            }
+            case NUMBER -> {
                 JsonNumber num = (JsonNumber) tree;
                 rowList.add(
                         new DOMTreeRow(level, tree.getValueType().toString(), key, num.toString()));
-                break;
-            case FALSE:
-            case TRUE:
-            case NULL:
+            }
+            case FALSE, TRUE, NULL -> {
                 String valtype = tree.getValueType().toString();
                 rowList.add(new DOMTreeRow(level, valtype, key, valtype.toLowerCase()));
-                break;
+            }
         }
     }
 

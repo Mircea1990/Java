@@ -1,7 +1,7 @@
 package jakartaee.examples.jsonb.jsonbtransient;
 
-import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
+import jakarta.inject.Named;
 import jakarta.json.bind.JsonbBuilder;
 
 /**

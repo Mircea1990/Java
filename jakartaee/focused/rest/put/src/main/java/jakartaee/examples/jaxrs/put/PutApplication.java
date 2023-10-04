@@ -1,10 +1,10 @@
 package jakartaee.examples.jaxrs.put;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * The application for the JAX-RS @PUT example.

@@ -1,13 +1,8 @@
 package jakartaee.examples.jpa.converter;
 
-import java.io.Serializable;
+import jakarta.persistence.*;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Convert;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import java.io.Serializable;
 
 /**
  * The JPA class used to demonstrate usage of @Converter.

@@ -1,8 +1,8 @@
 package jakartaee.examples.faces.managedvalidator;
 
-import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.faces.annotation.FacesConfig;
+import jakarta.inject.Named;
 
 /**
  * The bean for the CDI managed validator example.

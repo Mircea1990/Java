@@ -1,7 +1,7 @@
 package jakartaee.examples.jsonb.formatting;
 
-import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
+import jakarta.inject.Named;
 import jakarta.json.bind.JsonbBuilder;
 import jakarta.json.bind.JsonbConfig;
 
@@ -41,7 +41,7 @@ import jakarta.json.bind.JsonbConfig;
     public String submit() {
         JsonbConfig config = new JsonbConfig().withFormatting(true);
         JsonbBuilder builder = JsonbBuilder.newBuilder().withConfig(config);
-        json = builder.build().toJson(new Formatting());
+        json = builder.build().toJson(new jakartaee.examples.jsonb.formatting.Formatting());
         return "";
     }
 }

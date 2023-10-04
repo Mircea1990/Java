@@ -1,7 +1,7 @@
 package jakartaee.examples.faces.inputtext;
 
-import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
+import jakarta.inject.Named;
 
 /**
  * A request scoped bean for the h:inputText example.

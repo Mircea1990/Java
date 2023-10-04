@@ -1,13 +1,13 @@
 package jakartaee.examples.jsonb.jsonbdateformat;
 
+import jakarta.enterprise.context.RequestScoped;
+import jakarta.inject.Named;
+import jakarta.json.bind.JsonbBuilder;
+import jakarta.json.bind.JsonbConfig;
+
 import java.util.Calendar;
 import java.util.Locale;
 import java.util.TimeZone;
-
-import jakarta.inject.Named;
-import jakarta.enterprise.context.RequestScoped;
-import jakarta.json.bind.JsonbBuilder;
-import jakarta.json.bind.JsonbConfig;
 
 /**
  * The request scoped bean for the JSON-B @JsonbDateFormat example.
@@ -39,7 +39,7 @@ import jakarta.json.bind.JsonbConfig;
         JsonbBuilder builder = JsonbBuilder.newBuilder().withConfig(config);
         JsonbDateFormatExample example = new JsonbDateFormatExample();
         Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("MST"));
-        calendar.set(2001, 8, 11);
+        calendar.set(2001, Calendar.SEPTEMBER, 11);
         example.setDate(calendar.getTime());
         output = builder.build().toJson(example);
         return "";

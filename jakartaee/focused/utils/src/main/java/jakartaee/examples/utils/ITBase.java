@@ -1,12 +1,7 @@
 package jakartaee.examples.utils;
 
-import static java.lang.System.getProperty;
-import static org.jboss.shrinkwrap.api.ShrinkWrap.create;
-
-import java.io.File;
-import java.io.IOException;
-import java.net.URL;
-
+import com.gargoylesoftware.htmlunit.WebClient;
+import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.container.test.api.RunAsClient;
 import org.jboss.arquillian.junit.Arquillian;
@@ -17,8 +12,12 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.runner.RunWith;
 
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import java.io.File;
+import java.io.IOException;
+import java.net.URL;
+
+import static java.lang.System.getProperty;
+import static org.jboss.shrinkwrap.api.ShrinkWrap.create;
 
 
 @RunWith(Arquillian.class) @RunAsClient public abstract class ITBase {

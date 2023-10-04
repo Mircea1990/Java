@@ -22,11 +22,8 @@ public class TradeProcessor {
         String ret;
         String[] words = command.split(" ");
         switch (words[0]) {
-            case "EXIT":
-                ret = "BYE Closing connection.";
-                break;
-            case "BUY":
-            case "SELL":
+            case "EXIT" -> ret = "BYE Closing connection.";
+            case "BUY", "SELL" -> {
                 int nshares = Integer.parseInt(words[1]);
                 String ticker = words[2].toUpperCase();
                 String type = words[3].toUpperCase();
@@ -42,10 +39,8 @@ public class TradeProcessor {
                         ret = "ERROR Can't get price for " + ticker;
                 } else
                     ret = "ERROR Only MARKET orders supported.";
-
-                break;
-            default:
-                ret = "ERROR Unknown command.";
+            }
+            default -> ret = "ERROR Unknown command.";
         }
         return ret;
     }

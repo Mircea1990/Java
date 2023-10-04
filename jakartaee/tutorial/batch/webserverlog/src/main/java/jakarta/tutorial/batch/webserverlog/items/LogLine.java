@@ -19,7 +19,6 @@ public class LogLine {
 
     /* Construct an item from a log line */
     public LogLine(String line) {
-        //System.out.println(line);
         String[] result = line.split(", ");
         this.datetime = result[0];
         this.ipaddr = result[1];

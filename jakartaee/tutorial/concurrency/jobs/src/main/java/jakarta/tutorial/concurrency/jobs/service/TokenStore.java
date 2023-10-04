@@ -1,14 +1,10 @@
 package jakarta.tutorial.concurrency.jobs.service;
 
+import jakarta.ejb.*;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-
-import jakarta.ejb.ConcurrencyManagement;
-import jakarta.ejb.ConcurrencyManagementType;
-import jakarta.ejb.Lock;
-import jakarta.ejb.LockType;
-import jakarta.ejb.Singleton;
 
 
 @ConcurrencyManagement(ConcurrencyManagementType.CONTAINER) @Singleton public class TokenStore

@@ -1,8 +1,5 @@
 package jakarta.tutorial.batch.phonebilling;
 
-import java.io.Serializable;
-import java.util.Iterator;
-
 import jakarta.batch.api.BatchProperty;
 import jakarta.batch.api.chunk.ItemReader;
 import jakarta.enterprise.context.Dependent;
@@ -11,6 +8,9 @@ import jakarta.inject.Named;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.Query;
+
+import java.io.Serializable;
+import java.util.Iterator;
 
 /* Reader batch artifact.
  * Reads bills from the entity manager.

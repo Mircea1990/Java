@@ -1,7 +1,5 @@
 package jakarta.tutorial.batch.phonebilling;
 
-import java.util.Properties;
-
 import jakarta.batch.api.partition.PartitionMapper;
 import jakarta.batch.api.partition.PartitionPlan;
 import jakarta.batch.api.partition.PartitionPlanImpl;
@@ -10,6 +8,8 @@ import jakarta.inject.Named;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.Query;
+
+import java.util.Properties;
 
 /* Partition mapper artifact.
  * Determines the number of partitions (2) for the bill processing step

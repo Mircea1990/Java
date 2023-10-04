@@ -22,5 +22,5 @@ import jakarta.security.enterprise.identitystore.Pbkdf2PasswordHash;
                                  hashAlgorithmParameters = {"Pbkdf2PasswordHash.Iterations=3072",
                                          "Pbkdf2PasswordHash.Algorithm=PBKDF2WithHmacSHA512",
                                          "Pbkdf2PasswordHash.SaltSizeBytes=64"})
-@FacesConfig(version = FacesConfig.Version.JSF_2_3) @Named public class ApplicationConfig
+@FacesConfig @Named public class ApplicationConfig
         implements Serializable {}

@@ -12,7 +12,7 @@ import jakarta.inject.Named;
 /**
  * A request scoped bean injecting the view map.
  */
-@Named(value = "viewMapBean") @RequestScoped @FacesConfig(version = FacesConfig.Version.JSF_2_3)
+@Named(value = "viewMapBean") @RequestScoped @FacesConfig
 public class ViewMapBean implements Serializable {
 
     /**

@@ -1,15 +1,15 @@
 package jakarta.tutorial.batch.phonebilling;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.Serializable;
-
 import jakarta.batch.api.chunk.ItemReader;
 import jakarta.batch.runtime.context.JobContext;
 import jakarta.enterprise.context.Dependent;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 import jakarta.tutorial.batch.phonebilling.items.CallRecord;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.Serializable;
 
 /* Reader batch artifact.
  * Reads call records from the input log file.

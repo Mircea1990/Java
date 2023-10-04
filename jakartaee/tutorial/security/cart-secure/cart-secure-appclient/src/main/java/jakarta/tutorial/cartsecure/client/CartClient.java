@@ -34,10 +34,7 @@ public class CartClient {
 
             List<String> bookList = cart.getContents();
 
-            Iterator<String> iterator = bookList.iterator();
-
-            while (iterator.hasNext()) {
-                String title = iterator.next();
+            for (String title : bookList) {
                 System.out.println("Retrieving book title from cart: " + title);
             }
 

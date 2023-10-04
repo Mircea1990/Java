@@ -1,27 +1,19 @@
 package jakarta.tutorial.trading.rar.outbound;
 
+import jakarta.resource.Referenceable;
+import jakarta.resource.ResourceException;
+import jakarta.resource.spi.*;
+import jakarta.tutorial.trading.rar.api.TradeConnection;
+import jakarta.tutorial.trading.rar.api.TradeConnectionFactory;
+
+import javax.naming.NamingException;
+import javax.naming.Reference;
+import javax.security.auth.Subject;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.Serializable;
 import java.util.Set;
 import java.util.logging.Logger;
-
-import javax.naming.NamingException;
-import javax.naming.Reference;
-import javax.security.auth.Subject;
-
-import jakarta.resource.Referenceable;
-import jakarta.resource.ResourceException;
-import jakarta.resource.spi.ConfigProperty;
-import jakarta.resource.spi.ConnectionDefinition;
-import jakarta.resource.spi.ConnectionManager;
-import jakarta.resource.spi.ConnectionRequestInfo;
-import jakarta.resource.spi.ManagedConnection;
-import jakarta.resource.spi.ManagedConnectionFactory;
-import jakarta.resource.spi.ResourceAdapter;
-import jakarta.resource.spi.ResourceAdapterAssociation;
-import jakarta.tutorial.trading.rar.api.TradeConnection;
-import jakarta.tutorial.trading.rar.api.TradeConnectionFactory;
 
 
 /* The container's connection manager uses this class to create a pool

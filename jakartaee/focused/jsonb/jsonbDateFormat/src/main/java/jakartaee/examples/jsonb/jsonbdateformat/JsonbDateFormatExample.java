@@ -1,8 +1,8 @@
 package jakartaee.examples.jsonb.jsonbdateformat;
 
-import java.util.Date;
-
 import jakarta.json.bind.annotation.JsonbDateFormat;
+
+import java.util.Date;
 
 /**
  * The model object for the JSON-B @JsonbDateFormat example.

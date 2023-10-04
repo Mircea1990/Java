@@ -1,7 +1,8 @@
 package jakartaee.examples.ejb.remoteejb.client;
 
-import javax.naming.InitialContext;
 import jakartaee.examples.ejb.remoteejb.RemoteEjb;
+
+import javax.naming.InitialContext;
 
 /**
  * The remoteEjb client.

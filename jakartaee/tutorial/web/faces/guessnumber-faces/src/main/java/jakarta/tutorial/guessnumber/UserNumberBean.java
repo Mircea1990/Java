@@ -17,7 +17,7 @@ import jakarta.inject.Named;
 
     public UserNumberBean() {
         Random randomGR = new Random();
-        randomInt = new Integer(randomGR.nextInt(maximum + 1));
+        randomInt = randomGR.nextInt(maximum + 1);
         // Print number to server log
         System.out.println("Duke's number: " + randomInt);
     }

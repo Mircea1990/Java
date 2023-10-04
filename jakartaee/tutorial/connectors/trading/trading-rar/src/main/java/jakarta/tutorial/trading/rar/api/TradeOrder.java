@@ -4,14 +4,8 @@ package jakarta.tutorial.trading.rar.api;
 public class TradeOrder {
 
     private OrderType orderType;
-
-    ;
     private int nShares;
-
-    ;
     private Ticker ticker;
-
-    ;
     private OrderClass orderClass;
     public TradeOrder() {
         orderType = OrderType.BUY;

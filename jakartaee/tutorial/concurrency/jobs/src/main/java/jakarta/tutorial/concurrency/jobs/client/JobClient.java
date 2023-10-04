@@ -1,9 +1,6 @@
 package jakarta.tutorial.concurrency.jobs.client;
 
 
-import java.io.Serializable;
-import java.util.logging.Logger;
-
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.faces.application.FacesMessage;
 import jakarta.faces.context.FacesContext;
@@ -11,6 +8,9 @@ import jakarta.inject.Named;
 import jakarta.ws.rs.client.Client;
 import jakarta.ws.rs.client.ClientBuilder;
 import jakarta.ws.rs.core.Response;
+
+import java.io.Serializable;
+import java.util.logging.Logger;
 
 /**
  * Client to JAXRS service

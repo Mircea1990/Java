@@ -10,5 +10,5 @@ import jakarta.security.enterprise.authentication.mechanism.http.LoginToContinue
 
 @ApplicationScoped @CustomFormAuthenticationMechanismDefinition(
         loginToContinue = @LoginToContinue(loginPage = "/login.xhtml", errorPage = ""))
-@FacesConfig(version = FacesConfig.Version.JSF_2_3) @Named public class ApplicationConfig
+@FacesConfig @Named public class ApplicationConfig
         implements Serializable {}

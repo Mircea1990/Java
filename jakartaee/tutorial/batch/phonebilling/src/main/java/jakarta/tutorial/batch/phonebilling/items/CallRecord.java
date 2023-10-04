@@ -1,5 +1,9 @@
 package jakarta.tutorial.batch.phonebilling.items;
 
+import jakarta.json.Json;
+import jakarta.json.stream.JsonParser;
+import jakarta.persistence.*;
+
 import java.io.Serializable;
 import java.io.StringReader;
 import java.math.BigDecimal;
@@ -8,14 +12,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
-
-import jakarta.json.Json;
-import jakarta.json.stream.JsonParser;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Temporal;
-import jakarta.persistence.TemporalType;
 
 /* This class is a Java Persistence API entity that
  * represents a phone call in the input log file.
@@ -56,13 +52,11 @@ import jakarta.persistence.TemporalType;
         JsonParser parser = Json.createParser(new StringReader(jsonData));
         while (parser.hasNext()) {
             switch (parser.next()) {
-                case KEY_NAME:
-                    key = parser.getString();
-                    break;
-                case VALUE_STRING:
+                case KEY_NAME -> key = parser.getString();
+                case VALUE_STRING -> {
                     value = parser.getString();
                     map.put(key, value);
-                    break;
+                }
             }
         }
 

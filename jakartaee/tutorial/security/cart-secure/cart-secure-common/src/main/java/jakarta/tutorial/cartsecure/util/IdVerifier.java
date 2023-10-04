@@ -8,7 +8,7 @@ public class IdVerifier {
         boolean result = true;
 
         for (int i = 0; i < id.length(); i++) {
-            if (Character.isDigit(id.charAt(i)) == false) {
+            if (!Character.isDigit(id.charAt(i))) {
                 result = false;
             }
         }

@@ -1,10 +1,10 @@
 package jakartaee.examples.jpa.joinedInheritance;
 
-import java.util.List;
-
 import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
+
+import java.util.List;
 
 /**
  * A simple EJB that persist animal data in database

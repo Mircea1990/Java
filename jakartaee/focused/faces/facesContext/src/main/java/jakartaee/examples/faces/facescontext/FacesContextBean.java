@@ -1,12 +1,12 @@
 package jakartaee.examples.faces.facescontext;
 
-import java.io.Serializable;
-
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.faces.annotation.FacesConfig;
 import jakarta.faces.context.FacesContext;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
+
+import java.io.Serializable;
 
 /**
  * A request scoped bean injecting the FacesContext.

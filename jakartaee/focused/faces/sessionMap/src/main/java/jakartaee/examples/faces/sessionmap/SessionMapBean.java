@@ -1,18 +1,18 @@
 package jakartaee.examples.faces.sessionmap;
 
-import java.io.Serializable;
-import java.util.Map;
-
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.faces.annotation.FacesConfig;
 import jakarta.faces.annotation.SessionMap;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 
+import java.io.Serializable;
+import java.util.Map;
+
 /**
  * A request scoped bean injecting the session map.
  */
-@Named(value = "sessionMapBean") @RequestScoped @FacesConfig(version = FacesConfig.Version.JSF_2_3)
+@Named(value = "sessionMapBean") @RequestScoped @FacesConfig
 public class SessionMapBean implements Serializable {
 
     /**

@@ -1,10 +1,10 @@
 package jakartaee.examples.jpa.converter;
 
-import java.util.List;
-
 import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
+
+import java.util.List;
 
 /**
  * The EJB used to demonstrate usage of @Converter.

@@ -1,11 +1,8 @@
 package jakartaee.examples.jaxrs.put;
 
-import java.io.IOException;
-import java.net.URL;
-
-import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.inject.Inject;
+import jakarta.inject.Named;
 import jakarta.servlet.http.HttpServletRequest;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.ClientProtocolException;
@@ -15,6 +12,9 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+
+import java.io.IOException;
+import java.net.URL;
 
 /**
  * A request scoped bean to submit to JAX-RS @PUT resource.

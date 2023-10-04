@@ -37,8 +37,8 @@ import jakarta.tutorial.batch.webserverlog.items.LogFilteredLine;
 
     @Override public void writeItems(List<Object> items) throws Exception {
         /* Write the filtered lines to the output file */
-        for (int i = 0; i < items.size(); i++) {
-            LogFilteredLine filtLine = (LogFilteredLine) items.get(i);
+        for (Object item : items) {
+            LogFilteredLine filtLine = (LogFilteredLine) item;
             bwriter.write(filtLine.toString());
             bwriter.newLine();
         }

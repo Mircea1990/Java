@@ -1,18 +1,16 @@
 package jakartaee.examples.jsonb.formatting;
 
-import static org.junit.Assert.assertTrue;
-
-import java.net.URL;
-
+import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import jakartaee.examples.utils.ITBase;
 import org.jboss.arquillian.container.test.api.RunAsClient;
 import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.arquillian.test.api.ArquillianResource;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import java.net.URL;
 
-import jakartaee.examples.utils.ITBase;
+import static org.junit.Assert.assertTrue;
 
 /**
  * The JUnit tests for the FormattingBean class.

@@ -1,13 +1,13 @@
 package jakarta.tutorial.trading.rar.outbound;
 
-import java.io.IOException;
-import java.util.logging.Logger;
-
 import jakarta.resource.ResourceException;
 import jakarta.tutorial.trading.rar.api.TradeConnection;
 import jakarta.tutorial.trading.rar.api.TradeOrder;
 import jakarta.tutorial.trading.rar.api.TradeProcessingException;
 import jakarta.tutorial.trading.rar.api.TradeResponse;
+
+import java.io.IOException;
+import java.util.logging.Logger;
 
 /* An application-level connection handle used by clients to access
  * the physical connection. The physical connection is represented by

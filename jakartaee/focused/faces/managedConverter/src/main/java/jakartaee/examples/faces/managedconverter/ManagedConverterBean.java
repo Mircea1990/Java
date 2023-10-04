@@ -1,13 +1,13 @@
 package jakartaee.examples.faces.managedconverter;
 
-import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.faces.annotation.FacesConfig;
+import jakarta.inject.Named;
 
 /**
  * The managed bean for the CDI managed converter example..
  */
-@Named @RequestScoped @FacesConfig(version = FacesConfig.Version.JSF_2_3)
+@Named @RequestScoped @FacesConfig
 public class ManagedConverterBean {
 
     /**

@@ -19,7 +19,7 @@ public class JsonbCreatorExample {
      * @param integerString the integer in string format.
      */
     @JsonbCreator public JsonbCreatorExample(@JsonbProperty("integer") String integerString) {
-        integer = Integer.valueOf(integerString);
+        integer = Integer.parseInt(integerString);
     }
 
     /**

@@ -1,7 +1,7 @@
 package jakartaee.examples.jsonb.jsonbproperty;
 
-import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
+import jakarta.inject.Named;
 import jakarta.json.bind.JsonbBuilder;
 
 /**
@@ -31,7 +31,7 @@ import jakarta.json.bind.JsonbBuilder;
     public String submit() {
         JsonbBuilder builder = JsonbBuilder.newBuilder();
         JsonbPropertyExample example = new JsonbPropertyExample();
-        example.setString("this_is_my_string");
+        example.setName("this_is_my_string");
         output = builder.build().toJson(example);
         return "";
     }

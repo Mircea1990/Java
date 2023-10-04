@@ -1,7 +1,5 @@
 package jakartaee.examples.faces.managedconverter;
 
-import java.math.BigInteger;
-
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.faces.annotation.ManagedProperty;
 import jakarta.faces.component.UIComponent;
@@ -9,6 +7,8 @@ import jakarta.faces.context.FacesContext;
 import jakarta.faces.convert.Converter;
 import jakarta.faces.convert.FacesConverter;
 import jakarta.inject.Inject;
+
+import java.math.BigInteger;
 
 /**
  * The Converter for the CDI managed converter example.

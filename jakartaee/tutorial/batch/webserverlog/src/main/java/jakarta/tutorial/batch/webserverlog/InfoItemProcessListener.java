@@ -28,5 +28,4 @@ import jakarta.tutorial.batch.webserverlog.items.LogLine;
         LogLine logline = (LogLine) o;
         logger.log(Level.WARNING, "Error processing entry {0}", logline);
     }
-
 }

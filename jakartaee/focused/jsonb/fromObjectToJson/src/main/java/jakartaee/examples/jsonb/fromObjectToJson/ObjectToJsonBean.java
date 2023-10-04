@@ -1,10 +1,10 @@
 package jakartaee.examples.jsonb.fromObjectToJson;
 
-import java.util.ArrayList;
-
-import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
+import jakarta.inject.Named;
 import jakarta.json.bind.JsonbBuilder;
+
+import java.util.ArrayList;
 
 /**
  * A request scoped bean for using with the Object to JSON example.

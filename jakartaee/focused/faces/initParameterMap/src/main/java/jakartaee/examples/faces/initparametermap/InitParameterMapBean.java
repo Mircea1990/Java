@@ -1,13 +1,13 @@
 package jakartaee.examples.faces.initparametermap;
 
-import java.io.Serializable;
-import java.util.Map;
-
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.faces.annotation.FacesConfig;
 import jakarta.faces.annotation.InitParameterMap;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
+
+import java.io.Serializable;
+import java.util.Map;
 
 /**
  * A request scoped bean injecting the init parameter map.

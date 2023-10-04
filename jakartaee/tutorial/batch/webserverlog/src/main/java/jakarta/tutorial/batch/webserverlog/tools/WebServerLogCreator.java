@@ -72,12 +72,4 @@ public class WebServerLogCreator {
             logger.log(Level.INFO, ex.toString());
         }
     }
-
-    /*public static void main(String[] args) {
-        WebServerLogCreator log = new WebServerLogCreator("C:/log1.txt");
-        for (int i = 0; i < 500; i++) {
-            log.writeLogLine();
-        }
-        log.close();
-    }*/
 }

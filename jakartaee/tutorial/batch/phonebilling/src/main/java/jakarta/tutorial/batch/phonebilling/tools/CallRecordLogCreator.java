@@ -74,11 +74,4 @@ public class CallRecordLogCreator {
             logger.log(Level.WARNING, e.toString());
         }
     }
-    
-    /*public static void main(String args[]) {
-        CallRecordLogCreator c = new CallRecordLogCreator();
-        for (int i=0; i<100; i++)
-            System.out.println(c.generateRecord());
-        c.writeToFile("C:/log2.txt");
-    }*/
 }

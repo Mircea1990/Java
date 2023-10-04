@@ -1,8 +1,5 @@
 package jakarta.tutorial.batch.phonebilling;
 
-import java.io.Serializable;
-import java.util.List;
-
 import jakarta.batch.api.chunk.ItemWriter;
 import jakarta.enterprise.context.Dependent;
 import jakarta.inject.Named;
@@ -10,6 +7,9 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.tutorial.batch.phonebilling.items.CallRecord;
 import jakarta.tutorial.batch.phonebilling.items.PhoneBill;
+
+import java.io.Serializable;
+import java.util.List;
 
 /* Writer batch artifact.
  * Add every call to a bill entity.

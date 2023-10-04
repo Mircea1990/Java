@@ -1,11 +1,11 @@
 package jakarta.tutorial.trading.rar.outbound;
 
-import java.util.logging.Logger;
-
 import jakarta.resource.ResourceException;
 import jakarta.resource.spi.ConnectionManager;
 import jakarta.tutorial.trading.rar.api.TradeConnection;
 import jakarta.tutorial.trading.rar.api.TradeConnectionFactory;
+
+import java.util.logging.Logger;
 
 /* Implements the class that applications use to request connection
  * handles to the EIS */

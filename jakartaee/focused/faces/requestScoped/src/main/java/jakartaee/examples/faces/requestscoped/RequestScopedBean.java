@@ -1,9 +1,9 @@
 package jakartaee.examples.faces.requestscoped;
 
-import java.util.Date;
-
-import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
+import jakarta.inject.Named;
+
+import java.util.Date;
 
 /**
  * A request scoped bean.

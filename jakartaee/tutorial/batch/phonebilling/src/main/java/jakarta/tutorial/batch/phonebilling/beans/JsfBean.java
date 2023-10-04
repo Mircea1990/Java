@@ -1,14 +1,5 @@
 package jakarta.tutorial.batch.phonebilling.beans;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.logging.Logger;
-
 import jakarta.batch.operations.JobOperator;
 import jakarta.batch.runtime.BatchRuntime;
 import jakarta.enterprise.context.SessionScoped;
@@ -18,6 +9,11 @@ import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.Query;
 import jakarta.tutorial.batch.phonebilling.items.PhoneBill;
 import jakarta.tutorial.batch.phonebilling.tools.CallRecordLogCreator;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Logger;
 
 /* Managed bean for the JSF front end pages.
  * - Shows the log file to the user.

@@ -47,6 +47,51 @@
       <sourceFolder url="file://$MODULE_DIR$/focused/faces/outputText/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/focused/faces/param/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/focused/faces/requestCookieMap/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/requestScoped/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/sessionMap/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/faces/sessionScoped/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/jsonb/formatting/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/jsonb/fromJsonToObject/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/jsonb/fromObjectToJson/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/jsonb/jsonbCreator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/jsonb/jsonbDateFormat/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/jsonb/jsonbProperty/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/jsonb/jsonbTransient/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/jsonb/nullValues/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/jsonp/jsonGenerator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/pages/helloWorld/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/focused/pages/jspLifeCycle/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/archetypes/jaxrs-service-archetype/src/main/resources/archetype-resources/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/batch/phonebilling/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/batch/webserverlog/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/case-studies/dukes-bookstore/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/case-studies/dukes-forest/dukes-payment/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/case-studies/dukes-forest/dukes-resources/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/case-studies/dukes-forest/dukes-shipment/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/case-studies/dukes-forest/dukes-store/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/concurrency/jobs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/connectors/trading/trading-ear/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/connectors/trading/trading-eis/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/connectors/trading/trading-rar/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/security/cart-secure/cart-secure-appclient/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/security/cart-secure/cart-secure-common/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/security/cart-secure/cart-secure-ear/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/security/converter-secure/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/security/hello1-formauth/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/security/hello2-basicauth/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/web/faces/ajaxguessnumber/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/web/faces/bookmarks/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/web/faces/checkout-module/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/web/faces/compositecomponentexample/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/web/faces/guessnumber-faces/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/web/faces/hello1-rlc/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/web/faces/hello1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/web/faces/reservation/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/web/faces/simple-flow/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/web/jsonb/jsonbbasics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/web/jsonp/jsonpmodel/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/web/websocket/dukeetf2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tutorial/web/websocket/websocketbot/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

@@ -1,10 +1,10 @@
 package jakartaee.examples.jaxrs.helloworld;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * A request scoped bean for the JAX-RS HelloWorld example.

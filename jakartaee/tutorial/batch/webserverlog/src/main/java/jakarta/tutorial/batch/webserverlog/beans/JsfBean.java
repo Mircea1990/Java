@@ -24,7 +24,7 @@ import jakarta.inject.Named;
 
     /* Show to the user the log file that the batch job processes */
     public String getInputLog() {
-        String inputLog = "";
+        StringBuilder inputLog = new StringBuilder();
 
         /* Read from the log file included with the application
          * (webserverlog/WEB-INF/classes/log1.txt) */
@@ -36,13 +36,13 @@ import jakarta.inject.Named;
         try {
             String line = breader.readLine();
             while (line != null) {
-                inputLog += line + '\n';
+                inputLog.append(line).append('\n');
                 line = breader.readLine();
             }
         } catch (IOException ex) {
             logger.log(Level.INFO, ex.toString());
         }
-        return inputLog;
+        return inputLog.toString();
     }
 
     /* --JSF navigation method--

@@ -1,13 +1,13 @@
 package jakarta.tutorial.batch.phonebilling;
 
-import java.math.BigDecimal;
-
 import jakarta.batch.api.chunk.ItemProcessor;
 import jakarta.batch.runtime.context.JobContext;
 import jakarta.enterprise.context.Dependent;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 import jakarta.tutorial.batch.phonebilling.items.CallRecord;
+
+import java.math.BigDecimal;
 
 /* Processor batch artifact.
  * Calculate the price of every call.
@@ -29,8 +29,7 @@ import jakarta.tutorial.batch.phonebilling.items.CallRecord;
         airPrice = Double.parseDouble(s_airPrice);
         call = (CallRecord) obj;
         callPrice = airPrice * (1.0 * call.getMinutes() + call.getSeconds() / 60.0);
-        call.setPrice(new BigDecimal(callPrice));
+        call.setPrice(BigDecimal.valueOf(callPrice));
         return call;
     }
-
 }

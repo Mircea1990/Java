@@ -33,7 +33,7 @@ import jakarta.tutorial.dukesbookstore.components.MapComponent;
         MapComponent map = (MapComponent) component;
 
         String key = getName(context, map);
-        String value = (String) context.getExternalContext().getRequestParameterMap().get(key);
+        String value = context.getExternalContext().getRequestParameterMap().get(key);
 
         if (value != null) {
             map.setCurrent(value);

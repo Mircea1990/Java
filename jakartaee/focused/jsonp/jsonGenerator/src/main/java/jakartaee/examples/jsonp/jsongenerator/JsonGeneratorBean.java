@@ -1,11 +1,11 @@
 package jakartaee.examples.jsonp.jsongenerator;
 
-import java.io.StringWriter;
-
-import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
+import jakarta.inject.Named;
 import jakarta.json.Json;
 import jakarta.json.stream.JsonGenerator;
+
+import java.io.StringWriter;
 
 /**
  * A request scoped bean for the JsonGenerator example.

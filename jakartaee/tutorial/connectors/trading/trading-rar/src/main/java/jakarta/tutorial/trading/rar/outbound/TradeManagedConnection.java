@@ -1,5 +1,10 @@
 package jakarta.tutorial.trading.rar.outbound;
 
+import jakarta.resource.ResourceException;
+import jakarta.resource.spi.*;
+
+import javax.security.auth.Subject;
+import javax.transaction.xa.XAResource;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -8,16 +13,6 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
-
-import javax.security.auth.Subject;
-import javax.transaction.xa.XAResource;
-
-import jakarta.resource.ResourceException;
-import jakarta.resource.spi.ConnectionEventListener;
-import jakarta.resource.spi.ConnectionRequestInfo;
-import jakarta.resource.spi.LocalTransaction;
-import jakarta.resource.spi.ManagedConnection;
-import jakarta.resource.spi.ManagedConnectionMetaData;
 
 /* Represents a physical connection to the EIS.
  * The container maintains a pool of instances of this class */
