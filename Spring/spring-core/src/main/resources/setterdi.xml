@@ -10,8 +10,8 @@
     </bean>
 
     <bean id="engine" class="com.springcore.setterdi.domain.Engine">
-        <property name="type" value="v4"/>
-        <property name="volume" value="2"/>
+        <property name="type" value="v6"/>
+        <property name="volume" value="1"/>
     </bean>
 
     <bean id="transmission" class="com.springcore.setterdi.domain.Transmission">

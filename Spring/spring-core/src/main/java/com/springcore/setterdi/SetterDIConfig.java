@@ -9,19 +9,19 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan("com.springcore.setterdi")
-public class Config {
+public class SetterDIConfig {
     @Bean
     public Engine engine() {
         Engine engine = new Engine();
         engine.setType("v8");
-        engine.setVolume(5);
+        engine.setVolume(2);
         return engine;
     }
 
     @Bean
     public Transmission transmission() {
         Transmission transmission = new Transmission();
-        transmission.setType("sliding");
+        transmission.setType("CVT");
         return transmission;
     }
 

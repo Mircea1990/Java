@@ -1,5 +1,8 @@
 package com.springcore;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Member {
     private int memberId;
     private String memberName;

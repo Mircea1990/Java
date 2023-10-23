@@ -1,6 +1,8 @@
 package com.springcore.streamutils;
 
 import org.apache.commons.io.IOUtils;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StreamUtils;
 
 import java.io.IOException;
@@ -9,6 +11,7 @@ import java.io.StringWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+@Component
 public class CopyStream {
     public static String getStringFromInputStream(InputStream input) throws IOException {
         StringWriter writer = new StringWriter();
@@ -17,7 +20,7 @@ public class CopyStream {
     }
 
     public InputStream getNonClosingInputStream() throws IOException {
-        InputStream in = Files.newInputStream(Paths.get("src/test/resources/input.txt"));
+        InputStream in = new ClassPathResource("input.txt").getInputStream();
         return StreamUtils.nonClosing(in);
     }
 }

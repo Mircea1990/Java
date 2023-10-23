@@ -15,7 +15,7 @@ public class SpringRunner {
     }
 
     private static Car getCarFromJavaConfig() {
-        ApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
+        ApplicationContext context = new AnnotationConfigApplicationContext(SetterDIConfig.class);
         return context.getBean(Car.class);
     }
 

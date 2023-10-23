@@ -1,5 +1,6 @@
 package com.springcore;
 
+import com.springcore.EbookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

@@ -1,11 +1,12 @@
 package com.springcore.streamutils;
 
+import org.springframework.stereotype.Component;
+
 import java.io.InputStream;
 
-import org.springframework.util.StreamUtils;
-
+@Component
 public class DrainStream {
     public InputStream getInputStream() {
-        return StreamUtils.emptyInput();
+        return InputStream.nullInputStream();
     }
 }

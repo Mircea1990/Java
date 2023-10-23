@@ -5,7 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class AwareExample {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context
-                = new AnnotationConfigApplicationContext(Config.class);
+                = new AnnotationConfigApplicationContext(AwareConfig.class);
         MyBeanName myBeanName = context.getBean(MyBeanName.class);
         myBeanName.sayHello();
         MyBeanFactory myBeanFactory = context.getBean(MyBeanFactory.class);

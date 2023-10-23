@@ -10,7 +10,7 @@
     </parent>
     <groupId>com</groupId>
     <artifactId>spring-core</artifactId>
-    
+
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-core</name>
     <description>spring-core</description>
@@ -52,6 +52,15 @@
             <artifactId>archunit</artifactId>
             <version>1.1.0</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+            <version>3.1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
 

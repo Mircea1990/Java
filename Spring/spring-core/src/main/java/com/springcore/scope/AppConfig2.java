@@ -6,6 +6,9 @@ import com.springcore.scope.singletone.SingletonBean;
 import com.springcore.scope.singletone.SingletonObjectFactoryBean;
 import com.springcore.scope.singletone.SingletonProviderBean;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+
+import java.util.function.Function;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -15,7 +18,7 @@ import javax.inject.Provider;
 
 @Configuration
 @ComponentScan("com.springcore.scope")
-public class AppConfig {
+public class AppConfig2 {
     @Bean
     @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
     public PrototypeBean prototypeBean() {
@@ -45,5 +48,10 @@ public class AppConfig {
     @Bean
     public Provider<PrototypeBean> prototypeBeanProvider() {
         return this::prototypeBean;
+    }
+
+    @Bean
+    public Function<String, PrototypeBean> prototypeBeanFactory() {
+        return name -> prototypeBean();
     }
 }
