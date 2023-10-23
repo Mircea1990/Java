@@ -1,9 +1,0 @@
-
-t
-java:S1488?"^Immediately return this expression instead of assigning it to the temporary variable "entity".(À–ä
-+
-java:S1700j"Rename field "status"(·â¼
->
-java:S1948 "(Make "client" transient or serializable.(æÔíˆ
-A
-java:S1168["+Return an empty collection instead of null.(¥¹ï

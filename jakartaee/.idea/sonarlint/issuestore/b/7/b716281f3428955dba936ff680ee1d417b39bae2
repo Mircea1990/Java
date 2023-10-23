@@ -1,6 +1,4 @@
 
-[
-java:S2259Œ"DA "NullPointerException" could be thrown; "bookId" is nullable here.(ÔŠ÷˜
-N
-java:S2589‹"7Remove this expression which always evaluates to "true"(·ýãŠ
+`
+java:S2259Š"DA "NullPointerException" could be thrown; "bookId" is nullable here.(äìˆ×ýÿÿÿÿ
 [	java:S107 "AConstructor has 9 parameters, which is greater than 7 authorized.(õ¹é–úÿÿÿÿ

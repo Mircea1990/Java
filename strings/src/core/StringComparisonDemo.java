@@ -21,6 +21,14 @@ public class StringComparisonDemo {
 		System.out.println("fName.equals(fName2): " + fName.equals(fName2));
 		System.out.println("fName.equalsIgnoreCase(fName2): " + fName.equalsIgnoreCase(fName2));
 
+		System.out.println("------------------------");
+		String s10 = "String1";
+		String s11 = new String("String1");
+		System.out.println(s10 == "String1");
+		System.out.println(s10 == s11);
+		System.out.println(s10.equals(s11));
+		System.out.println(s10.equals(s11));
+
 	}
 
 }

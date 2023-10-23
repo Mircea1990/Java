@@ -1,25 +1,25 @@
 
-^
-java:S1854"CRemove this useless assignment to local variable "callerPrincipal".(ÿ†ý«ùÿÿÿÿ
-O
-java:S1481"4Remove this unused "callerPrincipal" local variable.(ÿ†ý«ùÿÿÿÿ
-K
-java:S1874"0Remove this use of "setScale"; it is deprecated.(€†¢Íüÿÿÿÿ
-K
-java:S1874"0Remove this use of "ROUND_UP"; it is deprecated.(€†¢Íüÿÿÿÿ
-K
-java:S1874"0Remove this use of "setScale"; it is deprecated.(€†¢Íüÿÿÿÿ
-K
-java:S1874"0Remove this use of "ROUND_UP"; it is deprecated.(€†¢Íüÿÿÿÿ
-^
-java:S1854""CRemove this useless assignment to local variable "callerPrincipal".(ÿ†ý«ùÿÿÿÿ
-O
-java:S1481""4Remove this unused "callerPrincipal" local variable.(ÿ†ý«ùÿÿÿÿ
-K
-java:S1874%"0Remove this use of "setScale"; it is deprecated.(€†¢Íüÿÿÿÿ
-K
-java:S1874%"0Remove this use of "ROUND_UP"; it is deprecated.(€†¢Íüÿÿÿÿ
-K
-java:S1874'"0Remove this use of "setScale"; it is deprecated.(€†¢Íüÿÿÿÿ
-K
-java:S1874'"0Remove this use of "ROUND_UP"; it is deprecated.(€†¢Íüÿÿÿÿ
+e
+java:S1854"CRemove this useless assignment to local variable "callerPrincipal".(ÿ†ý«ùÿÿÿÿ8êü”Ø¯1
+V
+java:S1481"4Remove this unused "callerPrincipal" local variable.(ÿ†ý«ùÿÿÿÿ8ëü”Ø¯1
+R
+java:S1874"0Remove this use of "setScale"; it is deprecated.(€†¢Íüÿÿÿÿ8íü”Ø¯1
+R
+java:S1874"0Remove this use of "ROUND_UP"; it is deprecated.(€†¢Íüÿÿÿÿ8íü”Ø¯1
+R
+java:S1874"0Remove this use of "setScale"; it is deprecated.(€†¢Íüÿÿÿÿ8îü”Ø¯1
+R
+java:S1874"0Remove this use of "ROUND_UP"; it is deprecated.(€†¢Íüÿÿÿÿ8ïü”Ø¯1
+e
+java:S1854""CRemove this useless assignment to local variable "callerPrincipal".(ÿ†ý«ùÿÿÿÿ8ðü”Ø¯1
+V
+java:S1481""4Remove this unused "callerPrincipal" local variable.(ÿ†ý«ùÿÿÿÿ8òü”Ø¯1
+R
+java:S1874%"0Remove this use of "setScale"; it is deprecated.(€†¢Íüÿÿÿÿ8óü”Ø¯1
+R
+java:S1874%"0Remove this use of "ROUND_UP"; it is deprecated.(€†¢Íüÿÿÿÿ8óü”Ø¯1
+R
+java:S1874'"0Remove this use of "setScale"; it is deprecated.(€†¢Íüÿÿÿÿ8óü”Ø¯1
+R
+java:S1874'"0Remove this use of "ROUND_UP"; it is deprecated.(€†¢Íüÿÿÿÿ8ôü”Ø¯1

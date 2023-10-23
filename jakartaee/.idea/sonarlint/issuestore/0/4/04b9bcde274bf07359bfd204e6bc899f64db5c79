@@ -1,8 +1,0 @@
-
-^
-java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(áÂÕû
-Y
-java:S3252">Use static access with "java.util.Calendar" for "getInstance".(ê¬Õÿÿÿÿÿ
-y
-java:S2142""^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(è®ã¶øÿÿÿÿ
-C	java:S108"")Either remove or fill this block of code.(è®ã¶øÿÿÿÿ
