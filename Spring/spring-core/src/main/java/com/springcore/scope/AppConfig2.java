@@ -16,42 +16,44 @@ import org.springframework.context.annotation.Scope;
 
 import javax.inject.Provider;
 
-@Configuration
+@Configuration // This annotation is used to indicate that the class declares one or more @Bean methods.
 @ComponentScan("com.springcore.scope")
+// This annotation is used to specify the base packages to scan for annotated components.
 public class AppConfig2 {
-    @Bean
+    @Bean // This annotation is used to indicate that a method produces a bean to be managed by the Spring container.
     @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+    // This annotation is used to specify the scope of the bean. In this case, a new instance will be created every time the bean is requested.
     public PrototypeBean prototypeBean() {
-        return new PrototypeBean();
+        return new PrototypeBean(); // Returns a new instance of PrototypeBean.
     }
 
-    @Bean
+    @Bean // This annotation indicates that this method produces a bean to be managed by the Spring container.
     public SingletonBean singletonBean() {
-        return new SingletonBean();
+        return new SingletonBean(); // Returns a new instance of SingletonBean.
     }
 
-    @Bean
+    @Bean // This annotation indicates that this method produces a bean to be managed by the Spring container.
     public SingletonProviderBean singletonProviderBean() {
-        return new SingletonProviderBean();
+        return new SingletonProviderBean(); // Returns a new instance of SingletonProviderBean.
     }
 
-    @Bean
+    @Bean // This annotation indicates that this method produces a bean to be managed by the Spring container.
     public SingletonAppContextBean singletonAppContextBean() {
-        return new SingletonAppContextBean();
+        return new SingletonAppContextBean(); // Returns a new instance of SingletonAppContextBean.
     }
 
-    @Bean
+    @Bean // This annotation indicates that this method produces a bean to be managed by the Spring container.
     public SingletonObjectFactoryBean singletonObjectFactoryBean() {
-        return new SingletonObjectFactoryBean();
+        return new SingletonObjectFactoryBean(); // Returns a new instance of SingletonObjectFactoryBean.
     }
 
-    @Bean
+    @Bean // This annotation indicates that this method produces a bean to be managed by the Spring container.
     public Provider<PrototypeBean> prototypeBeanProvider() {
-        return this::prototypeBean;
+        return this::prototypeBean; // Returns a provider for PrototypeBeans. The provider's get() method will return a new instance each time because PrototypeBeans are prototype scoped.
     }
 
-    @Bean
+    @Bean // This annotation indicates that this method produces a bean to be managed by the Spring container.
     public Function<String, PrototypeBean> prototypeBeanFactory() {
-        return name -> prototypeBean();
+        return name -> prototypeBean(); // Returns a function that can produce PrototypeBeans. The function takes a string (name) as input but doesn't use it, and returns a new PrototypeBean each time it's called because PrototypeBeans are prototype scoped.
     }
 }
