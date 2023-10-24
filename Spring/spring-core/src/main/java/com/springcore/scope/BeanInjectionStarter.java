@@ -1,14 +1,15 @@
 package com.springcore.scope;
 
 import com.springcore.scope.prototype.PrototypeBean;
-import com.springcore.scope.singletone.*;
+import com.springcore.scope.singletone.SingletonBean;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.util.Assert;
 
 public class BeanInjectionStarter {
     public static void main(String[] args) throws InterruptedException {
         // Creates a new Spring application context and provides the configuration class.
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig2.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(
+                AppConfig2.class);
         // Retrieves the SingletonBean instance from the application context.
         SingletonBean firstSingleton = context.getBean(SingletonBean.class);
         // Retrieves the PrototypeBean instance associated with the first SingletonBean.

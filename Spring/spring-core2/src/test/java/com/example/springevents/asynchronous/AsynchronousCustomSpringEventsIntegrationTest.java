@@ -8,18 +8,18 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
-// This class is a test class that uses SpringJUnit4ClassRunner to run tests within the Spring ApplicationContext
+// This class is a test class that uses SpringJUnit4ClassRunner to run tests within the Spring
+// ApplicationContext
 @RunWith(SpringJUnit4ClassRunner.class)
 // This annotation is used to specify which classes to use for loading the application context
-@ContextConfiguration(classes = {AsynchronousSpringEventsConfig.class}, loader = AnnotationConfigContextLoader.class)
+@ContextConfiguration(classes = {AsynchronousSpringEventsConfig.class},
+                      loader = AnnotationConfigContextLoader.class)
 public class AsynchronousCustomSpringEventsIntegrationTest {
     // Autowired instance of CustomSpringEventPublisher
-    @Autowired
-    private CustomSpringEventPublisher publisher;
+    @Autowired private CustomSpringEventPublisher publisher;
 
     // This test method checks if the custom event is published correctly
-    @Test
-    public void testCustomSpringEvents() throws InterruptedException {
+    @Test public void testCustomSpringEvents() throws InterruptedException {
         // Publish a custom event with the message "Hello world!!"
         publisher.publishCustomEvent("Hello world!!");
         // Print a message indicating that the custom event has been published

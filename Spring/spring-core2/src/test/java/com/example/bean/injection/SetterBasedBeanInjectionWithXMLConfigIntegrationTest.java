@@ -11,10 +11,10 @@ public class SetterBasedBeanInjectionWithXMLConfigIntegrationTest {
     private static final String HELM_NAME = "HelmBrand";
 
     // This is a test method
-    @Test
-    public void givenXMLConfigFile_whenUsingSetterBasedBeanInjection_thenCorrectHelmName() {
+    @Test public void givenXMLConfigFile_whenUsingSetterBasedBeanInjection_thenCorrectHelmName() {
         // Load the XML configuration file and create an ApplicationContext
-        final ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beanInjection-setter.xml");
+        final ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
+                "beanInjection-setter.xml");
         // Get the Ship bean from the context
         final Ship shipSetterBean = (Ship) applicationContext.getBean("ship");
         // Assert that the brand of the helm in the ship is as expected

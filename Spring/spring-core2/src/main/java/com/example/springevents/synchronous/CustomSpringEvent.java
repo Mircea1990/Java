@@ -7,7 +7,8 @@ import org.springframework.context.ApplicationEvent;
 @Getter
 // CustomSpringEvent is a class that extends the ApplicationEvent class from the Spring Framework.
 public class CustomSpringEvent extends ApplicationEvent {
-    // serialVersionUID is used for serialization and deserialization. It's a version control in a Serializable class.
+    // serialVersionUID is used for serialization and deserialization. It's a version control in
+    // a Serializable class.
     private static final long serialVersionUID = -8053143381029977953L;
     // This is a private field that holds the message of this event.
     private String message;

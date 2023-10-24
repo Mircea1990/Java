@@ -17,8 +17,7 @@ public class Engine {
         this.volume = volume; // Set the volume instance variable to the provided volume.
     }
 
-    @Override
-    public String toString() {
+    @Override public String toString() {
         // Override the toString method to return a string representation of this object.
         return String.format("%s %d", type, volume);
     }

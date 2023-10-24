@@ -11,8 +11,7 @@ public class SetterBasedBeanInjectionWithJavaConfigIntegrationTest {
     private static final String HELM_NAME = "HelmBrand";
 
     // This is a test method
-    @Test
-    public void givenJavaConfigFile_whenUsingSetterBasedBeanInjection_thenCorrectHelmName() {
+    @Test public void givenJavaConfigFile_whenUsingSetterBasedBeanInjection_thenCorrectHelmName() {
         // Create a new AnnotationConfigApplicationContext
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
         // Register the configuration class SetterBasedShipConfig with the context

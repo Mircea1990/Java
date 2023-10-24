@@ -13,8 +13,7 @@ import java.util.Map;
 import java.util.Properties;
 
 // The @Service annotation is used to mark the class as a service provider
-@Service("ConfigManager")
-public class ConfigManager {
+@Service("ConfigManager") public class ConfigManager {
     // LOG is a static final Log instance used for logging
     private static final Log LOG = LogFactory.getLog(ConfigManager.class);
     // filePath is a String that stores the path of the configuration file

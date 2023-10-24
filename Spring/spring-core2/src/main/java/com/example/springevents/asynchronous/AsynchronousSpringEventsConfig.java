@@ -10,12 +10,13 @@ import org.springframework.core.task.SimpleAsyncTaskExecutor;
 // Indicate that this class is a source of bean definitions
 @Configuration
 // Scan the specified package for Spring components
-@ComponentScan("com.example.springevents.synchronous")
-public class AsynchronousSpringEventsConfig {
-    // Define a bean for the ApplicationEventMulticaster, which is an interface for multicasting Spring application events
+@ComponentScan("com.example.springevents.synchronous") public class AsynchronousSpringEventsConfig {
+    // Define a bean for the ApplicationEventMulticaster, which is an interface for multicasting
+    // Spring application events
     @Bean(name = "applicationEventMulticaster")
     public ApplicationEventMulticaster simpleApplicationEventMulticaster() {
-        // Create a SimpleApplicationEventMulticaster, which is a concrete implementation of ApplicationEventMulticaster
+        // Create a SimpleApplicationEventMulticaster, which is a concrete implementation of
+        // ApplicationEventMulticaster
         final SimpleApplicationEventMulticaster simpleApplicationEventMulticaster =
                 new SimpleApplicationEventMulticaster();
         // Set the TaskExecutor that will actually execute listeners for each event

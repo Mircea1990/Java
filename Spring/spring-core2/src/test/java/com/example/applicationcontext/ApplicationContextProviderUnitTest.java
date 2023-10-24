@@ -8,16 +8,18 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-// The @ContextConfiguration annotation is used to specify the application context configuration to load for this test class.
+// The @ContextConfiguration annotation is used to specify the application context configuration
+// to load for this test class.
 // The classes attribute specifies the annotated classes to use for loading an ApplicationContext.
 @ContextConfiguration(classes = TestContextConfig.class)
-// The @ExtendWith annotation is used to register extensions for the annotated test class or test method.
-// SpringExtension.class integrates the Spring TestContext Framework into JUnit 5's Jupiter programming model.
-@ExtendWith(SpringExtension.class)
-class ApplicationContextProviderUnitTest {
-    // This test method checks if the ApplicationContext is not null and prints the number of beans in it.
-    @Test
-    void whenGetApplicationContext_thenReturnApplicationContext() {
+// The @ExtendWith annotation is used to register extensions for the annotated test class or test
+// method.
+// SpringExtension.class integrates the Spring TestContext Framework into JUnit 5's Jupiter
+// programming model.
+@ExtendWith(SpringExtension.class) class ApplicationContextProviderUnitTest {
+    // This test method checks if the ApplicationContext is not null and prints the number of
+    // beans in it.
+    @Test void whenGetApplicationContext_thenReturnApplicationContext() {
         // Get the ApplicationContext
         ApplicationContext context = ApplicationContextProvider.getApplicationContext();
         // Check if the context is not null
@@ -26,9 +28,9 @@ class ApplicationContextProviderUnitTest {
         System.out.printf("ApplicationContext has %d beans %n", context.getBeanDefinitionCount());
     }
 
-    // This test method checks if a bean of type ItemService can be retrieved from the ApplicationContext.
-    @Test
-    void whenGetBean_thenReturnItemServiceReference() {
+    // This test method checks if a bean of type ItemService can be retrieved from the
+    // ApplicationContext.
+    @Test void whenGetBean_thenReturnItemServiceReference() {
         // Get the ApplicationContext
         ApplicationContext context = ApplicationContextProvider.getApplicationContext();
         // Check if the context is not null

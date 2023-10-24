@@ -5,12 +5,13 @@ import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
-// The @Slf4j annotation is used to enable the Simple Logging Facade for Java (SLF4J) which simplifies logging in Java applications.
+// The @Slf4j annotation is used to enable the Simple Logging Facade for Java (SLF4J) which
+// simplifies logging in Java applications.
 @Slf4j
 // The @Component annotation indicates that an annotated class is a "component".
-// Such classes are considered as candidates for auto-detection when using annotation-based configuration and classpath scanning.
-@Component
-public class RandomIntGenerator {
+// Such classes are considered as candidates for auto-detection when using annotation-based
+// configuration and classpath scanning.
+@Component public class RandomIntGenerator {
     // A private final instance of the Random class.
     private final Random random = new Random();
 

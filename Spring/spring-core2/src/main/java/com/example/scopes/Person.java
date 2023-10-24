@@ -27,8 +27,7 @@ public class Person {
     }
 
     // Overriding the toString method to provide a custom string representation of the object
-    @Override
-    public String toString() {
+    @Override public String toString() {
         return "Person [name=" + name + "]";
     }
 }

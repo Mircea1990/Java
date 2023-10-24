@@ -6,9 +6,9 @@ import org.springframework.stereotype.Component;
 import java.util.logging.Logger;
 
 // The @Component annotation indicates that this class is a "component".
-// Such classes are considered as candidates for auto-detection when using annotation-based configuration and classpath scanning.
-@Component
-public class PrototypeBean {
+// Such classes are considered as candidates for auto-detection when using annotation-based
+// configuration and classpath scanning.
+@Component public class PrototypeBean {
     // Logger instance for this class is created.
     private final Logger logger = Logger.getLogger(this.getClass().getName());
     // @Getter is a Lombok annotation to auto-generate the getter method for this property.

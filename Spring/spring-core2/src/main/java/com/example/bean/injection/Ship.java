@@ -5,12 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 // This class represents a Ship and is a Spring component
-@Component
-@Getter
-public class Ship {
+@Component @Getter public class Ship {
     // This field is autowired with the Helm bean
-    @Autowired
-    private Helm helm;
+    @Autowired private Helm helm;
 
     // This constructor creates a Ship instance with a default Helm
     public Ship() {
@@ -27,8 +24,7 @@ public class Ship {
     }
 
     // This method is a setter for the helm field and is autowired
-    @Autowired
-    public void setHelm(Helm helm) {
+    @Autowired public void setHelm(Helm helm) {
         // Set the helm field with the provided Helm bean
         this.helm = helm;
     }

@@ -7,11 +7,10 @@ import org.springframework.stereotype.Component;
 
 // The @Getter annotation is a Lombok annotation to auto-generate getter methods for all fields.
 // The @Component annotation indicates that this class is a component.
-// A component is a Java class that is detected and automatically registered as a bean in the Spring IoC container.
+// A component is a Java class that is detected and automatically registered as a bean in the
+// Spring IoC container.
 // The @Entity annotation specifies that the class is an entity and is mapped to a database table.
-@Getter @Component
-@Entity
-public class Ebook {
+@Getter @Component @Entity public class Ebook {
     // These are fields for the Ebook class which correspond to columns in the database table.
     private int bookId;
     private String bookTitle;

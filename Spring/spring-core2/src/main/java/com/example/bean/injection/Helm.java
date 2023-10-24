@@ -1,7 +1,5 @@
 package com.example.bean.injection;
 
-import lombok.Getter;
-
 // This class represents a Helm
 public class Helm {
     // This field holds the brand of the helm (default value is "HelmBrand")

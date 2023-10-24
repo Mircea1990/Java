@@ -6,15 +6,15 @@ import org.springframework.beans.factory.BeanFactoryAware;
 import org.springframework.lang.NonNull;
 
 // This class implements the BeanFactoryAware interface which is part of the Spring Framework.
-// The BeanFactoryAware interface provides a callback that supplies the owning factory to a bean instance.
+// The BeanFactoryAware interface provides a callback that supplies the owning factory to a bean
+// instance.
 public class MyBeanFactory implements BeanFactoryAware {
     // Declaring a private variable of type BeanFactory.
     private BeanFactory beanFactory;
 
     // The setBeanFactory method is overridden from the BeanFactoryAware interface.
     // This method is used to set the BeanFactory that this bean runs in.
-    @Override
-    public void setBeanFactory(@NonNull BeanFactory beanFactory) throws BeansException {
+    @Override public void setBeanFactory(@NonNull BeanFactory beanFactory) throws BeansException {
         // Assigning the passed beanFactory to the private variable.
         this.beanFactory = beanFactory;
     }

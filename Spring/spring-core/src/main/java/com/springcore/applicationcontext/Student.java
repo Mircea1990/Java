@@ -3,8 +3,7 @@ package com.springcore.applicationcontext;
 import lombok.Getter;
 
 // The @Getter annotation is a Lombok annotation to auto-generate getter methods for all fields.
-@Getter
-public class Student {
+@Getter public class Student {
     // Represents the number of the student
     private int no;
     // Represents the name of the student

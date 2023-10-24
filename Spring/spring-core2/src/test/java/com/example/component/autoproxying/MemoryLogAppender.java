@@ -16,31 +16,28 @@ public class MemoryLogAppender extends ListAppender<ILoggingEvent> {
 
     // Method to check if a specific message at a specific level exists in the list
     public boolean contains(String string, Level level) {
-        return this.list.stream()
-                .anyMatch(event -> event.getMessage().toString().contains(string)
-                        && event.getLevel().equals(level));
+        return this.list.stream().anyMatch(
+                event -> event.getMessage().toString().contains(string) &&
+                         event.getLevel().equals(level));
     }
 
     // Method to count the number of events for a specific logger
     public int countEventsForLogger(String loggerName) {
-        return (int) this.list.stream()
-                .filter(event -> event.getLoggerName().contains(loggerName))
-                .count();
+        return (int) this.list.stream().filter(event -> event.getLoggerName().contains(loggerName))
+                              .count();
     }
 
     // Method to search for a specific message in the list
     public List<ILoggingEvent> search(String string) {
-        return this.list.stream()
-                .filter(event -> event.getMessage().toString().contains(string))
-                .collect(Collectors.toList());
+        return this.list.stream().filter(event -> event.getMessage().toString().contains(string))
+                        .collect(Collectors.toList());
     }
 
     // Method to search for a specific message at a specific level in the list
     public List<ILoggingEvent> search(String string, Level level) {
-        return this.list.stream()
-                .filter(event -> event.getMessage().toString().contains(string)
-                        && event.getLevel().equals(level))
-                .collect(Collectors.toList());
+        return this.list.stream().filter(event -> event.getMessage().toString().contains(string) &&
+                                                  event.getLevel().equals(level)).collect(
+                Collectors.toList());
     }
 
     // Method to get the size of the list

@@ -3,8 +3,7 @@ package com.example.scopes;
 import lombok.Getter;
 
 // The @Getter annotation is used to generate a getter method for the field
-@Getter
-public class HelloMessageGenerator {
+@Getter public class HelloMessageGenerator {
     // message is a private String that will store the message
     private String message;
 

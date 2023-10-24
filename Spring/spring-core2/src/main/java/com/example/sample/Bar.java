@@ -1,4 +1,3 @@
 package com.example.sample;
 
-public class Bar {
-}
+public class Bar {}

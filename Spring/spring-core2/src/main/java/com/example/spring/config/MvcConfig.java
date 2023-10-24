@@ -10,21 +10,28 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 @EnableWebMvc  // This annotation is used to enable Spring MVC.
-@Configuration  // This annotation is used to indicate that the class declares one or more @Bean methods.
+@Configuration
+// This annotation is used to indicate that the class declares one or more @Bean methods.
 public class MvcConfig implements
-        WebMvcConfigurer {  // This class implements the WebMvcConfigurer interface for callback configuration of a Web MVC application.
+                       WebMvcConfigurer {  // This class implements the WebMvcConfigurer
+    // interface for callback configuration of a Web MVC application.
     public MvcConfig() {  // Constructor of this class.
         super();  // Calls the constructor of the superclass.
     }
     // API
 
     @Override
-    // This annotation is used to indicate that a method declaration is intended to override a method declaration in a supertype.
-    public void addViewControllers(final ViewControllerRegistry registry) {  // This method adds view controllers to the registry.
-        registry.addViewController("/sample.html");  // Adds a view controller that maps to "/sample.html".
+    // This annotation is used to indicate that a method declaration is intended to override a
+    // method declaration in a supertype.
+    public void addViewControllers(final ViewControllerRegistry registry) {  // This method adds
+        // view controllers to the registry.
+        registry.addViewController(
+                "/sample.html");  // Adds a view controller that maps to "/sample.html".
     }
 
-    @Bean  // This annotation is used to indicate that a method produces a bean to be managed by the Spring container.
+    @Bean
+    // This annotation is used to indicate that a method produces a bean to be managed by the
+    // Spring container.
     public ViewResolver viewResolver() {  // This method creates a ViewResolver bean.
         final InternalResourceViewResolver bean =
                 new InternalResourceViewResolver();  // Creates a new InternalResourceViewResolver.

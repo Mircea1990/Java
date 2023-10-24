@@ -18,22 +18,19 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
 // This is a test class for testing auto-proxying in Spring with Java configuration
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(
+@RunWith(SpringJUnit4ClassRunner.class) @ContextConfiguration(
         // The classes to be loaded into the application context
-        classes = {EligibleForAutoProxyRandomIntProcessor.class, DataCache.class, RandomIntGenerator.class})
-public class EligibleForAutoProxyingIntegrationTest {
+        classes = {EligibleForAutoProxyRandomIntProcessor.class, DataCache.class,
+                RandomIntGenerator.class}) public class EligibleForAutoProxyingIntegrationTest {
     // MemoryAppender for logging events
     private static MemoryLogAppender memoryAppender;
     // The processor to be tested
     private EligibleForAutoProxyRandomIntProcessor randomIntProcessor;
     // Autowired DataCache instance
-    @Autowired
-    private DataCache dataCache;
+    @Autowired private DataCache dataCache;
 
     // Setup method to initialize the logger and memory appender
-    @BeforeClass
-    public static void setup() {
+    @BeforeClass public static void setup() {
         // Create a new MemoryLogAppender
         memoryAppender = new MemoryLogAppender();
         // Set the logger context for the memory appender
@@ -53,8 +50,10 @@ public class EligibleForAutoProxyingIntegrationTest {
     public void givenAutowireInBeanPostProcessor_whenSpringContextInitialize_thenNotEligibleLogShouldShowAndGroupFieldPopulated() {
         // Search for log events indicating that a bean is not eligible for auto-proxying
         List<ILoggingEvent> notEligibleEvents = memoryAppender.search(
-                "Bean 'randomIntGenerator' of type [com.example.component.autoproxying.RandomIntGenerator] " +
-                        "is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)");
+                "Bean 'randomIntGenerator' of type [com.example.component.autoproxying" +
+                ".RandomIntGenerator] " +
+                "is not eligible for getting processed by all BeanPostProcessors (for example: " +
+                "not eligible for auto-proxying)");
         // Assert that there are no such events
         assertEquals(0, notEligibleEvents.size());
         // Assert that the group field in the data cache is populated (not zero)

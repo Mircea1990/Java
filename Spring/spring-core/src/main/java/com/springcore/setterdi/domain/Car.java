@@ -4,7 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-// This annotation is used to indicate that this class is a Spring component. It will be automatically detected during classpath scanning.
+// This annotation is used to indicate that this class is a Spring component. It will be
+// automatically detected during classpath scanning.
 public class Car {
     // Declare the dependencies of this class.
     private Engine engine;
@@ -20,9 +21,12 @@ public class Car {
         this.engine = engine; // Set the engine instance variable to the provided engine.
     }
 
-    @Autowired // This annotation is used to automatically inject the Transmission bean into this class.
+    @Autowired
+    // This annotation is used to automatically inject the Transmission bean into this class.
     public void setTransmission(Transmission transmission) {
-        this.transmission = transmission; // Set the transmission instance variable to the provided transmission.
+        this.transmission =
+                transmission; // Set the transmission instance variable to the provided
+        // transmission.
     }
 
     @Autowired // This annotation is used to automatically inject the Trailer bean into this class.
@@ -30,10 +34,10 @@ public class Car {
         this.trailer = trailer; // Set the trailer instance variable to the provided trailer.
     }
 
-    @Override
-    public String toString() {
+    @Override public String toString() {
         // Override the toString method to return a string representation of this object.
-        return String.format("Engine: %s Transmission: %s Trailer: %s", engine, transmission, trailer);
+        return String.format("Engine: %s Transmission: %s Trailer: %s", engine, transmission,
+                             trailer);
     }
 }
 

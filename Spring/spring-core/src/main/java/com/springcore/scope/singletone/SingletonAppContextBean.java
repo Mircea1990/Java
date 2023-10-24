@@ -7,7 +7,8 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.lang.NonNull;
 
 // This class is a Singleton Bean that is aware of the ApplicationContext.
-// It implements the ApplicationContextAware interface to get the reference to the ApplicationContext.
+// It implements the ApplicationContextAware interface to get the reference to the
+// ApplicationContext.
 public class SingletonAppContextBean implements ApplicationContextAware {
     // The ApplicationContext instance.
     private ApplicationContext applicationContext;
@@ -19,8 +20,8 @@ public class SingletonAppContextBean implements ApplicationContextAware {
 
     // This method is overridden from the ApplicationContextAware interface.
     // It sets the ApplicationContext instance when the bean is created by the Spring container.
-    @Override
-    public void setApplicationContext(@NonNull ApplicationContext applicationContext) throws BeansException {
+    @Override public void setApplicationContext(@NonNull ApplicationContext applicationContext)
+            throws BeansException {
         this.applicationContext = applicationContext;
     }
 }

@@ -14,8 +14,8 @@ public class ConstructorBasedBeanInjectionWithXMLConfigIntegrationTest {
     @Test
     public void givenXMLConfigFile_whenUsingConstructorBasedBeanInjection_thenCorrectHelmName() {
         // Load the XML configuration file and create an ApplicationContext
-        final ApplicationContext applicationContext =
-                new ClassPathXmlApplicationContext("beanInjection-constructor.xml");
+        final ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
+                "beanInjection-constructor.xml");
         // Get the Ship bean from the context
         final Ship shipConstructorBean = (Ship) applicationContext.getBean("ship");
         // Assert that the brand of the helm in the ship is as expected

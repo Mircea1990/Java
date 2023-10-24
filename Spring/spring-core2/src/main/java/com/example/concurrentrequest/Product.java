@@ -3,8 +3,7 @@ package com.example.concurrentrequest;
 import lombok.Getter;
 
 // The @Getter annotation is a Lombok annotation to auto-generate getters for all fields.
-@Getter
-public class Product {
+@Getter public class Product {
     // Unique identifier for a product
     private final int id;
     // Name of the product

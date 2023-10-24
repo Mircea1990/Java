@@ -5,8 +5,7 @@ import lombok.Getter;
 import java.util.Locale;
 
 // The @Getter annotation is a Lombok annotation to auto-generate getter methods for all fields.
-@Getter
-public class Dialog {
+@Getter public class Dialog {
     // Represents the locale for this dialog
     private Locale locale;
     // Represents a hello message for this dialog

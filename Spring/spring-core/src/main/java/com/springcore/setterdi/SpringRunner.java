@@ -21,7 +21,8 @@ public class SpringRunner {
 
     // A private static method that returns a Car object configured using Java configuration
     private static Car getCarFromJavaConfig() {
-        // Creating an ApplicationContext object using AnnotationConfigApplicationContext and SetterDIConfig class
+        // Creating an ApplicationContext object using AnnotationConfigApplicationContext and
+        // SetterDIConfig class
         ApplicationContext context = new AnnotationConfigApplicationContext(SetterDIConfig.class);
         // Getting a Car bean from the context and returning it
         return context.getBean(Car.class);
@@ -29,7 +30,8 @@ public class SpringRunner {
 
     // A private static method that returns a Car object configured using XML configuration
     private static Car getCarFromXml() {
-        // Creating an ApplicationContext object using ClassPathXmlApplicationContext and an XML file
+        // Creating an ApplicationContext object using ClassPathXmlApplicationContext and an XML
+        // file
         ApplicationContext context = new ClassPathXmlApplicationContext("setterdi.xml");
         // Getting a Car bean from the context and returning it
         return context.getBean(Car.class);

@@ -15,8 +15,7 @@ public class Transmission {
     }
 
     // Overriding the toString method from the Object class
-    @Override
-    public String toString() {
+    @Override public String toString() {
         // Returns a formatted string representing 'type'
         return String.format("%s", type);
     }

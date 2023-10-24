@@ -5,7 +5,8 @@ import org.springframework.context.ApplicationEvent;
 
 // The @Getter annotation is a Lombok annotation to auto-generate getter methods for all fields.
 @Getter
-// GenericSpringAppEvent is a class that extends the ApplicationEvent class from the Spring Framework.
+// GenericSpringAppEvent is a class that extends the ApplicationEvent class from the Spring
+// Framework.
 // It's a generic class that can handle events of any type.
 public class GenericSpringAppEvent<T> extends ApplicationEvent {
     // This is a private field that holds the event data of type T.

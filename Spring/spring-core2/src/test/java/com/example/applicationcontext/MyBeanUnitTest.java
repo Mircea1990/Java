@@ -9,20 +9,21 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-// The @ContextConfiguration annotation is used to specify the application context configuration to load for this test class.
+// The @ContextConfiguration annotation is used to specify the application context configuration
+// to load for this test class.
 // The classes attribute specifies the annotated classes to use for loading an ApplicationContext.
 @ContextConfiguration(classes = TestContextConfig.class)
-// The @ExtendWith annotation is used to register extensions for the annotated test class or test method.
-// SpringExtension.class integrates the Spring TestContext Framework into JUnit 5's Jupiter programming model.
-@ExtendWith(SpringExtension.class)
-class MyBeanUnitTest {
+// The @ExtendWith annotation is used to register extensions for the annotated test class or test
+// method.
+// SpringExtension.class integrates the Spring TestContext Framework into JUnit 5's Jupiter
+// programming model.
+@ExtendWith(SpringExtension.class) class MyBeanUnitTest {
     // The @Autowired annotation is used to auto-wire the MyBean bean into this unit test class.
-    @Autowired
-    MyBean myBean;
+    @Autowired MyBean myBean;
 
-    // This test method checks if the MyBean bean and its ApplicationContext are not null and prints the number of beans in it.
-    @Test
-    void whenGetApplicationContext_thenReturnApplicationContext() {
+    // This test method checks if the MyBean bean and its ApplicationContext are not null and
+    // prints the number of beans in it.
+    @Test void whenGetApplicationContext_thenReturnApplicationContext() {
         // Check if the MyBean bean is not null
         assertNotNull(myBean);
         // Get the ApplicationContext from the MyBean bean
