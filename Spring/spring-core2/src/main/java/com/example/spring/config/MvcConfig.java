@@ -12,8 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableWebMvc  // This annotation is used to enable Spring MVC.
 @Configuration
 // This annotation is used to indicate that the class declares one or more @Bean methods.
-public class MvcConfig implements
-                       WebMvcConfigurer {  // This class implements the WebMvcConfigurer
+public class MvcConfig implements WebMvcConfigurer {  // This class implements the WebMvcConfigurer
     // interface for callback configuration of a Web MVC application.
     public MvcConfig() {  // Constructor of this class.
         super();  // Calls the constructor of the superclass.

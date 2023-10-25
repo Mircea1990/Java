@@ -1,4 +1,3 @@
 package com.example.factorymethod;
 
-public class Foo {
-}
+public class Foo {}

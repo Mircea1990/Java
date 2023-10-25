@@ -14,8 +14,7 @@ import java.util.concurrent.TimeUnit;
 // This annotation is used to indicate that the class declares one or more @Bean methods.
 @ComponentScan("com.example")
 // This annotation is used to specify the base packages for component scanning.
-public class CoreConfig implements
-                        WebMvcConfigurer {  // This class implements the WebMvcConfigurer
+public class CoreConfig implements WebMvcConfigurer {  // This class implements the WebMvcConfigurer
     // interface for callback configuration of a Web MVC application.
     public CoreConfig() {  // Constructor of this class.
         super();  // Calls the constructor of the superclass.

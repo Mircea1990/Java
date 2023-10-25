@@ -10,11 +10,11 @@ import java.util.concurrent.ExecutorService;
 
 @Component
 // This annotation indicates that the class is a component.
-public final class CleanupBean implements
-                               DisposableBean {  // This class implements the DisposableBean
+public final class CleanupBean
+        implements DisposableBean {  // This class implements the DisposableBean
     // interface for callback on destruction of a bean.
     private final Logger logger = LoggerFactory.getLogger(getClass());
-            // Logger instance for this class.
+    // Logger instance for this class.
     @Autowired
     // This annotation is used to autowire bean on the setter method, constructor, a property or
     // methods with arbitrary names and/or multiple arguments.

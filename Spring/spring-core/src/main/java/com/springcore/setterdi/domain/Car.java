@@ -24,8 +24,7 @@ public class Car {
     @Autowired
     // This annotation is used to automatically inject the Transmission bean into this class.
     public void setTransmission(Transmission transmission) {
-        this.transmission =
-                transmission; // Set the transmission instance variable to the provided
+        this.transmission = transmission; // Set the transmission instance variable to the provided
         // transmission.
     }
 

@@ -85,8 +85,7 @@ import org.springframework.expression.spel.standard.SpelExpressionParser;
             if (!(value instanceof EventBus)) {
                 this.logger.error(
                         "{}: expression {} did not evaluate to an instance of EventBus for bean " +
-                        "of type {}",
-                        this.getClass().getSimpleName(), annotationValue,
+                        "of type {}", this.getClass().getSimpleName(), annotationValue,
                         proxy.getClass().getSimpleName());
                 return;
             }
